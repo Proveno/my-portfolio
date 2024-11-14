@@ -1,6 +1,4 @@
-import { Box, Typography, Button, IconButton } from '@mui/material'
-import { GitHub, LinkedIn, Twitter } from '@mui/icons-material'
-import { motion } from 'framer-motion'
+import { Box } from '@mui/material'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
 import Experience from './Experience'

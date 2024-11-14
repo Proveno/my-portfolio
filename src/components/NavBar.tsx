@@ -1,6 +1,5 @@
 import { Box, Avatar, IconButton } from '@mui/material'
 import { Home, Person, Build, Dashboard, Article, Mail } from '@mui/icons-material'
-import { motion } from 'framer-motion'
 
 const NavBar = ({
   setSelectedSection,
@@ -43,7 +42,7 @@ const NavBar = ({
           key={index}
           component='a'
           href={item.href}
-          onClick={(e) => setSelectedSection(item.href)}
+          onClick={() => setSelectedSection(item.href)}
           sx={{
             color: 'white',
             backgroundColor: '#2e2e4d',

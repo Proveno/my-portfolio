@@ -1,7 +1,5 @@
 'use client'
-import { Box, Typography, Container, IconButton, Button, Grid } from '@mui/material'
-import { motion } from 'framer-motion'
-import { GitHub, LinkedIn, Twitter } from '@mui/icons-material'
+import { Box } from '@mui/material'
 import NavBar from '@/components/NavBar'
 import MainSection from '@/components/MainSection'
 import { useEffect, useState } from 'react'
@@ -9,7 +7,7 @@ import AboutSection from '@/components/About/AboutSection'
 
 const Home = () => {
   const [selectedSection, setSelectedSection] = useState<string>('')
-  const [renderElem, setRenderElem] = useState<any>(<MainSection />)
+  const [renderElem, setRenderElem] = useState<JSX.Element>(<MainSection />)
   // setLoaded={setLoaded}
 
   useEffect(() => {

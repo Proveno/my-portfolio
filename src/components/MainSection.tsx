@@ -1,6 +1,5 @@
 import { Box, Typography, Button, IconButton } from '@mui/material'
 import { GitHub, LinkedIn, Twitter } from '@mui/icons-material'
-import { motion } from 'framer-motion'
 
 const MainSection = () => {
   return (
