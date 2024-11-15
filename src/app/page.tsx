@@ -5,6 +5,7 @@ import MainSection from '@/components/MainSection'
 import { useEffect, useState } from 'react'
 import AboutSection from '@/components/About/AboutSection'
 import ContactSection from '@/components/Contact/ContactSection'
+import ProjectsSection from '@/components/Projects/ProjectsSection'
 
 const Home = () => {
   const [selectedSection, setSelectedSection] = useState<string>('')
@@ -25,6 +26,9 @@ const Home = () => {
           break
         case '#contact':
           setRenderElem(<ContactSection />)
+          break
+        case '#projects':
+          setRenderElem(<ProjectsSection />)
           break
         default:
           setRenderElem(<MainSection />)

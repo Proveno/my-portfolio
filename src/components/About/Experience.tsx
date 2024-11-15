@@ -39,7 +39,7 @@ const educationData = [
     institution: 'IT-Academy "Step"',
     period: '04.2019-10.2021',
     description:
-      'Abschluss einer Ausbildung bzw. eines Diploms als Softwareentwickler mit umfassenden Kenntnissen in modernen Programmiersprachen und Technologien. Dazu gehören die Entwicklung von Webanwendungen mit JavaScript, HTML und CSS, Softwarelösungen mit C++ sowie Anwendungen auf Basis von C# und .NET. Zudem wurden Kenntnisse in serverseitiger Programmierung mit Node.js und Frontend-Entwicklung mit Angular und React vermittelt. Eine Spezialisierung erfolgte auf Java-Programmierung und Android-Entwicklung, wodurch fundierte Fähigkeiten in der Erstellung moderner Softwarelösungen erworben wurden.',
+      'Completion of training or a diploma as a software developer with comprehensive knowledge of modern programming languages ​​and technologies. This includes the development of web applications with JavaScript, HTML and CSS, software solutions with C++ and applications based on C# and .NET. In addition, knowledge of server-side programming with Node.js and front-end development with Angular and React was imparted. Specialization was in Java programming and Android development, which gave the student a solid skill set in creating modern software solutions.',
   },
   {
     title: 'Schooler',
