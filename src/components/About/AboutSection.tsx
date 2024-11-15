@@ -16,6 +16,8 @@ const AboutSection = () => {
         color: 'white',
         textAlign: 'center',
         padding: '2rem',
+        paddingLeft: { xs: 'none', md: 15 },
+        width: '100%',
       }}
     >
       <AboutMe />

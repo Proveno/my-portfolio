@@ -25,7 +25,7 @@ const Home = () => {
   }, [selectedSection])
   return (
     <Box>
-      <Box sx={{ display: { xs: 'none', md: 'inline' } }}>
+      <Box>
         <NavBar setSelectedSection={setSelectedSection} />
       </Box>
       <Box>{renderElem}</Box>
