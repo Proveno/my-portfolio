@@ -5,15 +5,21 @@ const skills = [
   { name: 'HTML5', level: 'Advanced' },
   { name: 'CSS3', level: 'Advanced' },
   { name: 'JavaScript', level: 'Advanced' },
-  { name: 'TypeScript', level: 'Intermediate' },
-  { name: 'ReactJS', level: 'Advanced' },
-  { name: 'NextJS', level: 'Intermediate' },
+  { name: 'TypeScript', level: 'Advanced' },
+  { name: 'NextJS', level: 'Advanced' },
+  { name: 'React', level: 'Advanced' },
+  { name: 'Tailwind', level: 'Intermediate' },
+  { name: 'Bootstrap', level: 'Intermediate' },
+
   { name: 'NodeJS', level: 'Intermediate' },
-  { name: 'MongoDB', level: 'Intermediate' },
+  { name: 'Mongo DB', level: 'Intermediate' },
+
   { name: 'Git', level: 'Intermediate' },
-  { name: 'ExpressJS', level: 'Advanced' },
-  { name: 'PhotoShop', level: 'Advanced' },
-  { name: 'Linux', level: 'Intermediate' },
+  { name: 'Maria DB', level: 'Beginner' },
+  { name: 'C++', level: 'Beginner' },
+  { name: 'C#', level: 'Beginner' },
+  { name: 'Java', level: 'Beginner' },
+  { name: 'Android', level: 'Beginner' },
 ]
 
 const Skills = () => {
@@ -35,7 +41,13 @@ const Skills = () => {
       </Typography>
 
       {/* Список навыков */}
-      <Grid container spacing={2} sx={{ maxWidth: 900, mt: 4 }} justifyContent='center'>
+      <Grid
+        container
+        spacing={2}
+        className='min-[1000px]:max-w-[900px] min-[1400px]:max-w-[1100px]'
+        sx={{ mt: 4 }}
+        justifyContent='center'
+      >
         {skills.map((skill, index) => (
           <Grid item xs={6} sm={4} md={3} key={index}>
             <Paper

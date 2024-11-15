@@ -15,7 +15,7 @@ const AboutSection = () => {
         backgroundColor: '#1f1f2e',
         color: 'white',
         textAlign: 'center',
-        padding: '2rem',
+        padding: { xs: '0.5rem', md: '2rem' },
         paddingLeft: { xs: 'none', md: 15 },
         width: '100%',
       }}

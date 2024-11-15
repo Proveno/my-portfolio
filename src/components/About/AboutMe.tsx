@@ -37,7 +37,7 @@ const AboutMe = () => {
               flexDirection: { xs: 'column', md: 'row' },
               alignItems: 'center', // Центрирование по вертикали
               justifyContent: 'center', // Центрирование по горизонтали
-              textAlign: { xs: 'center', md: 'left' }, // Центрирование текста для маленьких экранов
+              textAlign: { xs: 'left', md: 'left' }, // Центрирование текста для маленьких экранов
             }}
           >
             <Avatar
@@ -54,7 +54,10 @@ const AboutMe = () => {
             />
             <Box sx={{ ml: { md: 3 } }}>
               {/* Отступ слева для больших экранов */}
-              <Typography variant='h5' sx={{ fontWeight: 'bold', mt: { xs: 2, md: 2 } }}>
+              <Typography
+                variant='h5'
+                sx={{ fontWeight: 'bold', textAlign: 'center', mt: { xs: 2, md: 2 } }}
+              >
                 PERSONAL INFOS
               </Typography>
               <Box mt={2} sx={{ maxWidth: { xs: '100%', md: 270 }, mx: { xs: 'auto', md: 0 } }}>
@@ -88,7 +91,7 @@ const AboutMe = () => {
         <Grid
           container
           spacing={2}
-          sx={{ maxWidth: 600, width: '100%', mt: { xs: 4, md: 0 } }}
+          sx={{ maxWidth: 600, width: '100%', mt: { xs: 0, md: 0 } }}
           justifyContent='center'
         >
           {[

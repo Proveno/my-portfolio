@@ -4,63 +4,49 @@ import SchoolIcon from '@mui/icons-material/School'
 
 const experienceData = [
   {
-    title: 'Software Developer',
-    company: 'Unix Company',
-    period: '2010-2012',
+    title: 'Full-stack developer',
+    company: 'AVAIT UG ',
+    period: '01.2023-Present',
     description:
-      'Diligent software engineer with 5+ years of experience in commercial application and software development. Eager to join Cyclone Inc. to build innovative and cutting-edge business solutions for the impressive suite of clients within its global reach.',
+      'Development of both front-end and back-end components for a comprehensive web application. This includes implementing responsive user interfaces using modern frameworks and ensuring seamless integration with the server-side architecture. Creation and optimization of databases to efficiently store and retrieve data while implementing robust data security measures to safeguard sensitive information. Design and implementation of functional elements such as interactive forms, dynamic content loading, and user-friendly navigation to enhance the overall application experience.',
   },
   {
-    title: 'Back-end Developer',
-    company: 'Liza Yoolo ITC Company',
-    period: '2012-2018',
+    title: 'Front-end developer',
+    company: 'IT-TUTOR',
+    period: '07.2024-09.2024',
     description:
-      'Diligent software engineer with 5+ years of experience in commercial application and software development.',
+      'Development of the frontend of the web application with a special focus on the design and implementation of user-friendly UI components that ensure an optimal user experience. Great emphasis is placed on a responsive design that enables cross-device adaptation in order to offer high functionality and aesthetics on smartphones, tablets and desktop computers alike. In addition, mechanisms for the secure processing of data on the client side are implemented to ensure both data security and the protection of user privacy.',
   },
   {
-    title: 'Front-end Developer',
-    company: 'Ultra Luca Company',
-    period: '2018-2021',
+    title: 'Intern(Front-end)',
+    company: 'Foodba',
+    period: '01.2021-08.2021',
     description:
-      'Diligent software engineer with 5+ years of experience in commercial application and software development.',
-  },
-  {
-    title: 'Software Developer',
-    company: 'Unix Company',
-    period: '2021-2022',
-    description:
-      'Diligent software engineer with 5+ years of experience in commercial application and software development.',
+      'Development of the frontend for the web application with a focus on creating an intuitive and engaging user interface that ensures a positive user experience. This includes the design and implementation of design concepts, including the development of a consistent visual appearance and the application of UX principles. In addition, special emphasis is placed on the creation of functional elements of the application, such as interactive components, forms, navigation elements and dynamic content that support and enhance the overall functionality of the web application.',
   },
 ]
 
 const educationData = [
   {
-    title: 'Software Engineer',
-    institution: 'Cirro Stratus Inc.',
-    period: 'May 2018 – Present',
+    title: 'Student, T-Course',
+    institution: 'Studienkolleg Hamburg',
+    period: '08.2024–07.2025',
     description:
-      'Liaised with Product Managers to identify minimum viable product requirements and clearly defined feature sets into well-scoped user stories for individual team members.',
+      'Completion of the preparatory college with a successful assessment test (FSP), which serves as a qualification for starting a specialist course in Germany. The T course focuses on sound preparation for later studies in the field of computer science. German language skills are deepened to an academic level in order to successfully complete the course in German. In addition, there is an intensive examination of technical fundamentals in mathematics, physics and computer science, which are essential for understanding complex topics in the field of computer science.',
   },
   {
-    title: 'Bachelor of Computer Science',
-    institution: 'Carnegie Mellon University',
-    period: '2014-2018',
+    title: 'Software developer',
+    institution: 'IT-Academy "Step"',
+    period: '04.2019-10.2021',
     description:
-      'Liaised with Product Managers to identify minimum viable product requirements and clearly defined feature sets into well-scoped user stories for individual team members.',
+      'Abschluss einer Ausbildung bzw. eines Diploms als Softwareentwickler mit umfassenden Kenntnissen in modernen Programmiersprachen und Technologien. Dazu gehören die Entwicklung von Webanwendungen mit JavaScript, HTML und CSS, Softwarelösungen mit C++ sowie Anwendungen auf Basis von C# und .NET. Zudem wurden Kenntnisse in serverseitiger Programmierung mit Node.js und Frontend-Entwicklung mit Angular und React vermittelt. Eine Spezialisierung erfolgte auf Java-Programmierung und Android-Entwicklung, wodurch fundierte Fähigkeiten in der Erstellung moderner Softwarelösungen erworben wurden.',
   },
   {
-    title: 'Masters of Sciences',
-    institution: 'Uniex Pro University',
-    period: '2012-2014',
+    title: 'Schooler',
+    institution: 'Gymnasium No. 31, Zaporizhzhia',
+    period: '09.2012-06.2023',
     description:
-      'Liaised with Product Managers to identify minimum viable product requirements and clearly defined feature sets into well-scoped user stories for individual team members.',
-  },
-  {
-    title: 'Bachelor of Sciences',
-    institution: 'University of Oregon',
-    period: '2009-2012',
-    description:
-      'Liaised with Product Managers to identify minimum viable product requirements and clearly defined feature sets into well-scoped user stories for individual team members.',
+      'Completion of school education with successful acquisition of wonderful knowledge in mathematics, science, languages ​​and computer science. During school, important social and organizational skills were developed that serve as a basis for further academic and professional careers.',
   },
 ]
 

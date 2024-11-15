@@ -1,6 +1,6 @@
 import { Box, Avatar, IconButton } from '@mui/material'
-import { Home, Person, Build, Dashboard, Article, Mail } from '@mui/icons-material'
-import { useEffect, useState } from 'react'
+import { Home, Person, Dashboard, Mail } from '@mui/icons-material'
+import { useEffect, useRef, useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
 
 const NavBar = ({
@@ -10,6 +10,7 @@ const NavBar = ({
 }) => {
   const [isOpened, setIsOpened] = useState<boolean>(false)
   const [width, setWidth] = useState(0)
+  const divRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
     setWidth(window.innerWidth)
@@ -22,16 +23,28 @@ const NavBar = ({
   useEffect(() => {
     console.log(width)
   }, [width])
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (divRef.current && !divRef.current.contains(event.target as Node)) {
+        setIsOpened(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [setIsOpened])
   return (
     <>
       <Box
         className='transition-all duration-1000'
         sx={{
+          display: { xs: 'flex', md: 'none' },
           position: 'fixed',
           top: '4%',
           left: '2%',
           transform: 'translateY(-50%)',
-          display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
@@ -49,6 +62,7 @@ const NavBar = ({
         />
       </Box>
       <Box
+        ref={divRef}
         className='transition-all duration-1000'
         sx={{
           position: 'fixed',
@@ -76,9 +90,7 @@ const NavBar = ({
         {[
           { icon: <Home />, href: '#home' },
           { icon: <Person />, href: '#about' },
-          { icon: <Build />, href: '#services' },
           { icon: <Dashboard />, href: '#projects' },
-          { icon: <Article />, href: '#blog' },
           { icon: <Mail />, href: '#contact' },
         ].map((item, index) => (
           <IconButton
