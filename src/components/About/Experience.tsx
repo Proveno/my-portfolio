@@ -15,14 +15,14 @@ const experienceData = [
     company: 'IT-TUTOR',
     period: '07.2024-09.2024',
     description:
-      'Development of the frontend of the web application with a special focus on the design and implementation of user-friendly UI components that ensure an optimal user experience. Great emphasis is placed on a responsive design that enables cross-device adaptation in order to offer high functionality and aesthetics on smartphones, tablets and desktop computers alike. In addition, mechanisms for the secure processing of data on the client side are implemented to ensure both data security and the protection of user privacy.',
+      'Development of the frontend of the web application with a special focus on the design and implementation of user-friendly UI components that ensure an optimal user experience. Great emphasis is placed on a responsive design that enables cross-device adaptation in order to offer high functionality and aesthetics on smartphones, tablets and desktop computers alike. Also, mechanisms for the secure processing of data on the client side are implemented to ensure both data security and the protection of user privacy.',
   },
   {
     title: 'Intern(Front-end)',
     company: 'Foodba',
     period: '01.2021-08.2021',
     description:
-      'Development of the frontend for the web application with a focus on creating an intuitive and engaging user interface that ensures a positive user experience. This includes the design and implementation of design concepts, including the development of a consistent visual appearance and the application of UX principles. In addition, special emphasis is placed on the creation of functional elements of the application, such as interactive components, forms, navigation elements and dynamic content that support and enhance the overall functionality of the web application.',
+      'Development of the frontend for the web application with a focus on creating an intuitive and engaging user interface that ensures a positive user experience. This includes the design and implementation of design concepts, including the development of a consistent visual appearance and the application of UX principles. Furthermore, special emphasis is placed on the creation of functional elements of the application, such as interactive components, forms, navigation elements and dynamic content that support and enhance the overall functionality of the web application.',
   },
 ]
 
@@ -32,7 +32,7 @@ const educationData = [
     institution: 'Studienkolleg Hamburg',
     period: '08.2024–07.2025',
     description:
-      'Completion of the preparatory college with a successful assessment test (FSP), which serves as a qualification for starting a specialist course in Germany. The T course focuses on sound preparation for later studies in the field of computer science. German language skills are deepened to an academic level in order to successfully complete the course in German. In addition, there is an intensive examination of technical fundamentals in mathematics, physics and computer science, which are essential for understanding complex topics in the field of computer science.',
+      'Completion of the preparatory college with a successful assessment test (FSP), which serves as a qualification for starting a specialist course in Germany. The T course focuses on preparation for later studies. German language skills are deepened to an academic level in order to successfully complete the course in German. Moreover, there is an intensive examination of technical fundamentals in mathematics, physics and computer science.',
   },
   {
     title: 'Software developer',
@@ -139,7 +139,7 @@ const Experience = () => {
           <Box className='flex gap-2'>
             <SchoolIcon fontSize='large' className='mt-0.5 text-[#34d399]' />
             <Typography variant='h4' sx={{ fontWeight: 'bold', mb: 2, textAlign: 'left' }}>
-              Educational Qualifications
+              Education
             </Typography>
           </Box>
 
@@ -178,13 +178,15 @@ const Experience = () => {
                   }}
                 />
                 <Box sx={{ textAlign: 'left', ml: 3 }}>
-                  <Typography
-                    variant='h6'
-                    sx={{ color: '#34d399', fontWeight: 'bold', fontSize: '1.1rem' }}
-                  >
-                    {item.title}{' '}
-                    <span style={{ fontSize: '0.9rem', color: '#cfcfcf' }}>({item.period})</span>
-                  </Typography>
+                  <Box>
+                    <Typography
+                      variant='h6'
+                      sx={{ color: '#34d399', fontWeight: 'bold', fontSize: '1.1rem' }}
+                    >
+                      {item.title}{' '}
+                      <span style={{ fontSize: '0.9rem', color: '#cfcfcf' }}>({item.period})</span>
+                    </Typography>
+                  </Box>
                   <Typography
                     variant='subtitle1'
                     sx={{ fontStyle: 'italic', color: '#cfcfcf', mb: 1 }}

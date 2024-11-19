@@ -14,7 +14,6 @@ const Home = () => {
   // setLoaded={setLoaded}
 
   useEffect(() => {
-    console.log(selectedSection)
     setHideBlock(true)
     setTimeout(() => {
       switch (selectedSection) {

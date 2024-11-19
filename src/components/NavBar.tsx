@@ -1,5 +1,5 @@
 import { Box, Avatar, IconButton } from '@mui/material'
-import { Home, Person, Dashboard, Mail } from '@mui/icons-material'
+import { Person, Dashboard, Mail } from '@mui/icons-material'
 import { useEffect, useRef, useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
 
@@ -21,7 +21,7 @@ const NavBar = ({
     }
   }, [])
   useEffect(() => {
-    console.log(width)
+    // console.log(width)
   }, [width])
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -83,12 +83,17 @@ const NavBar = ({
         <Avatar
           src='/assets/MyImage.png'
           alt='Profile Picture'
-          sx={{ width: 60, height: 60, mb: 2, border: '2px solid #2e2e4d' }}
+          sx={{
+            width: { xs: 60, md: 70, lg: 80 },
+            height: { xs: 60, md: 70, lg: 80 },
+            mb: 2,
+            border: '2px solid #2e2e4d',
+          }}
+          onClick={() => setSelectedSection('#home')}
         />
 
         {/* Иконки секций */}
         {[
-          { icon: <Home />, href: '#home' },
           { icon: <Person />, href: '#about' },
           { icon: <Dashboard />, href: '#projects' },
           { icon: <Mail />, href: '#contact' },
@@ -99,6 +104,8 @@ const NavBar = ({
             href={item.href}
             onClick={() => setSelectedSection(item.href)}
             sx={{
+              width: { xs: 40, md: 45, lg: 50 },
+              height: { xs: 40, md: 45, lg: 50 },
               color: 'white',
               backgroundColor: '#2e2e4d',
               '&:hover': {
