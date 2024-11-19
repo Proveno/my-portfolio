@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <Box className={'bg-[#1f1f2e]'}>
       <Box>
-        <NavBar setSelectedSection={setSelectedSection} />
+        <NavBar selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
       </Box>
       <Box className={`transition-all duration-500 ${hideBlock ? 'opacity-0' : 'opacity-100'}`}>
         {renderElem}

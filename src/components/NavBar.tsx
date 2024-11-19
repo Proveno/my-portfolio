@@ -4,8 +4,10 @@ import { useEffect, useRef, useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
 
 const NavBar = ({
+  selectedSection,
   setSelectedSection,
 }: {
+  selectedSection: string
   setSelectedSection: React.Dispatch<React.SetStateAction<string>>
 }) => {
   const [isOpened, setIsOpened] = useState<boolean>(false)
@@ -80,17 +82,19 @@ const NavBar = ({
         }}
       >
         {/* Аватар */}
-        <Avatar
-          src='/assets/MyImage.png'
-          alt='Profile Picture'
-          sx={{
-            width: { xs: 60, md: 70, lg: 80 },
-            height: { xs: 60, md: 70, lg: 80 },
-            mb: 2,
-            border: '2px solid #2e2e4d',
-          }}
-          onClick={() => setSelectedSection('#home')}
-        />
+        <a href={'#home'}>
+          <Avatar
+            src='/assets/MyImage.png'
+            alt='Profile Picture'
+            sx={{
+              width: { xs: 60, md: 70, lg: 80 },
+              height: { xs: 60, md: 70, lg: 80 },
+              mb: 2,
+              border: '2px solid #2e2e4d',
+            }}
+            onClick={() => setSelectedSection('#home')}
+          />
+        </a>
 
         {/* Иконки секций */}
         {[
@@ -99,6 +103,7 @@ const NavBar = ({
           { icon: <Mail />, href: '#contact' },
         ].map((item, index) => (
           <IconButton
+            className='transition-all duration-800'
             key={index}
             component='a'
             href={item.href}
@@ -106,10 +111,10 @@ const NavBar = ({
             sx={{
               width: { xs: 40, md: 45, lg: 50 },
               height: { xs: 40, md: 45, lg: 50 },
-              color: 'white',
-              backgroundColor: '#2e2e4d',
+              color: selectedSection == item.href ? '#2e2e4d' : '#fff',
+              backgroundColor: selectedSection == item.href ? '#34d399' : '#2e2e4d',
               '&:hover': {
-                backgroundColor: '#3a3a5c',
+                backgroundColor: selectedSection == item.href ? '#34d399' : '#3a3a5c',
                 scale: 1.1,
               },
             }}
