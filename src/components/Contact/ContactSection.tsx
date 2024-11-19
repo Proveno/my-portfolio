@@ -4,10 +4,11 @@ import { Box, Typography, Grid, TextField, Button, IconButton } from '@mui/mater
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import EmailIcon from '@mui/icons-material/Email'
 import PhoneIcon from '@mui/icons-material/Phone'
-import FacebookIcon from '@mui/icons-material/Facebook'
-import TwitterIcon from '@mui/icons-material/Twitter'
+
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import InstagramIcon from '@mui/icons-material/Instagram'
+
 import { useState } from 'react'
 
 const ContactSection = () => {
@@ -224,7 +225,7 @@ const ContactSection = () => {
                 <LocationOnIcon sx={{ color: '#34d399' }} />
               </Box>
               <Typography variant='body1' sx={{ color: '#d1d5db' }}>
-                Trittauer Amtsweg 51a, 22179 Hamburg
+                Trittauer Amtsweg 51a
               </Typography>
             </Box>
 
@@ -273,24 +274,21 @@ const ContactSection = () => {
             {/* Социальные иконки */}
             <Box sx={{ display: 'flex', gap: 2, mt: 3 }}>
               <IconButton
+                component='a'
+                href='https://www.instagram.com/maksym.reznik/profilecard/?igsh=MTdudnVqYzBnenl1bQ=='
+                target='_blank'
                 sx={{
                   backgroundColor: '#374151',
                   color: '#d1d5db',
                   '&:hover': { backgroundColor: '#2f2f3e' },
                 }}
               >
-                <FacebookIcon />
+                <InstagramIcon />
               </IconButton>
               <IconButton
-                sx={{
-                  backgroundColor: '#374151',
-                  color: '#d1d5db',
-                  '&:hover': { backgroundColor: '#2f2f3e' },
-                }}
-              >
-                <TwitterIcon />
-              </IconButton>
-              <IconButton
+                component='a'
+                href='https://www.linkedin.com/in/maksym-riznyk-3340941b8/'
+                target='_blank'
                 sx={{
                   backgroundColor: '#374151',
                   color: '#d1d5db',
@@ -300,6 +298,9 @@ const ContactSection = () => {
                 <LinkedInIcon />
               </IconButton>
               <IconButton
+                component='a'
+                href='https://github.com/Proveno'
+                target='_blank'
                 sx={{
                   backgroundColor: '#374151',
                   color: '#d1d5db',
@@ -312,7 +313,6 @@ const ContactSection = () => {
           </Box>
         </Grid>
 
-        {/* Форма обратной связи */}
         {/* Форма обратной связи */}
         <Grid item xs={12} md={5}>
           <Box

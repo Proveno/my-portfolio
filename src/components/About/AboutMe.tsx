@@ -95,12 +95,12 @@ const AboutMe = () => {
           justifyContent='center'
         >
           {[
-            { label: 'NUMBERS OF EXPERIENCE', value: '10+' },
-            { label: 'COMPLETED PROJECTS', value: '360+' },
-            { label: 'ATTEND MEETINGS', value: '332+' },
-            { label: 'MAKE BIG SOFTWARE', value: '630+' },
-            { label: 'HAPPY CUSTOMERS', value: '890+' },
-            { label: 'INTERNATIONAL AWARDS WON', value: '65+' },
+            { label: 'BIG PROJECTS', value: '4+' },
+            { label: 'LANGUAGES', value: '4' },
+            { label: 'TECHNOLOGIES', value: '10+' },
+            { label: 'YEARS OF EXPERIENCE', value: '3+' },
+            { label: 'YEARS OF EDUCATION', value: '2+' },
+            { label: '', value: '...' },
           ].map((item, index) => (
             <Grid item xs={6} sm={4} key={index}>
               <Paper

@@ -1,5 +1,5 @@
 import { Box, Typography, Button, IconButton } from '@mui/material'
-import { GitHub, LinkedIn, Twitter } from '@mui/icons-material'
+import { GitHub, LinkedIn, Instagram } from '@mui/icons-material'
 
 const MainSection = () => {
   return (
@@ -29,24 +29,25 @@ const MainSection = () => {
 
       {/* Описание */}
       <Typography variant='body1' sx={{ maxWidth: '800px', mt: 2, mb: 4 }}>
-        Full Stack Web Developer specializing in front-end and back-end development. Experienced
-        with all stages of the development cycle for dynamic websites. Well-versed in programming
-        languages like JavaScript, ES6, Node.js, HTML5, CSS3, and frameworks like React and MongoDB.
+        I am a student and web developer with over three years of experience in building modern web
+        applications. I specialize in React, Next.js, as well as frontend and backend development.
+        My key competencies include working with databases (MongoDB, MariaDB) and creating
+        responsive user interfaces using CSS, Tailwind CSS, Material UI.
       </Typography>
 
       {/* Социальные иконки */}
       <Box display='flex' justifyContent='center' gap={2} mb={4}>
         <IconButton
           component='a'
-          href='https://github.com'
+          href='https://www.instagram.com/maksym.reznik/profilecard/?igsh=MTdudnVqYzBnenl1bQ=='
           target='_blank'
           sx={{ color: 'white', bgcolor: '#2e2e4d', p: 1.5 }}
         >
-          <GitHub />
+          <Instagram />
         </IconButton>
         <IconButton
           component='a'
-          href='https://linkedin.com'
+          href='https://www.linkedin.com/in/maksym-riznyk-3340941b8/'
           target='_blank'
           sx={{ color: 'white', bgcolor: '#2e2e4d', p: 1.5 }}
         >
@@ -54,11 +55,11 @@ const MainSection = () => {
         </IconButton>
         <IconButton
           component='a'
-          href='https://twitter.com'
+          href='https://github.com/Proveno'
           target='_blank'
           sx={{ color: 'white', bgcolor: '#2e2e4d', p: 1.5 }}
         >
-          <Twitter />
+          <GitHub />
         </IconButton>
       </Box>
 
