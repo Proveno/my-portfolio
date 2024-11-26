@@ -1,3 +1,9 @@
+// import { useTranslations } from 'next-intl'
+
+// export default function HomePage() {
+//   const t = useTranslations('TESTChapter')
+//   return <h1>{t('test1')}</h1>
+// }
 'use client'
 import { Box } from '@mui/material'
 import NavBar from '@/components/NavBar'
@@ -36,7 +42,7 @@ const Home = () => {
     }, 400)
   }, [selectedSection])
   return (
-    <Box className={'bg-[#1f1f2e]'}>
+    <Box className={'bg-[#1f1f2e] '}>
       <Box>
         <NavBar selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
       </Box>
