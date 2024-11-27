@@ -44,18 +44,18 @@ const ContactSection = () => {
     }
 
     if (!formData.name.trim()) {
-      newErrors.name = 'Name is required'
+      newErrors.name = t('fieldNameErr')
     }
     if (!formData.email.trim()) {
-      newErrors.email = 'Email is required'
+      newErrors.email = t('fieldEmailErr')
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = 'Invalid email format'
+      newErrors.email = t('fieldEmailErrFormat')
     }
     if (!formData.subject.trim()) {
-      newErrors.subject = 'Subject is required'
+      newErrors.subject = t('fieldSubjectErr')
     }
     if (!formData.message.trim()) {
-      newErrors.message = 'Message is required'
+      newErrors.message = t('fieldMessageErr')
     }
 
     setErrors(newErrors)
@@ -457,7 +457,7 @@ const ContactSection = () => {
                 },
               }}
             >
-              {isSubmitting ? 'SENDING...' : t('sendMessageBtn')}
+              {isSubmitting ? t('loadingMessageBtn') : t('sendMessageBtn')}
             </Button>
           </Box>
         </Grid>

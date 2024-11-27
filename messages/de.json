@@ -4,11 +4,11 @@
     "Maksym": "Maksym Riznyk",
     "softwareDeveloper": "SOFTWAREENTWICKLER",
     "textAboutMe": "Ich bin Student und Webentwickler mit über drei Jahren Erfahrung im Aufbau moderner Webanwendungen. Ich spezialisiere mich auf React, Next.js sowie Frontend- und Backend-Entwicklung. Zu meinen Kernkompetenzen gehören die Arbeit mit Datenbanken (MongoDB, MariaDB) und die Erstellung von responsiven Benutzeroberflächen mit CSS, Tailwind CSS, Material UI.",
-    "download": "LADEN SIE DEN LEBENSLAUF HERUNTER"
+    "download": "LEBENSLAUF HERUNTERLADEN"
   },
   "aboutPage": {
-    "aboutPart1": "ABOUT",
-    "aboutPart2": "ME",
+    "aboutPart1": "ÜBER",
+    "aboutPart2": "MICH",
     "personalInfo": "PERSÖNLICHE INFORMATIONEN",
     "name": "Name",
     "nameContent": "Maksym Riznyk",
@@ -38,13 +38,13 @@
     "levelIntermediate": "Mittelstufe",
     "levelBeginner": "Anfänger",
 
-    "coverLetterPart1": "BEWERBUNGS",
-    "coverLetterPart2": "SCHREIBEN",
+    "coverLetterPart1": "MEIN",
+    "coverLetterPart2": "LEBENSLAUF",
 
     "workingExperience": "Berufserfahrung",
     "education": "Bildung",
 
-    "present": "Gegenwart",
+    "present": "Heute",
 
     "work1PosName": "Full-Stack-Entwickler",
     "work1Name": "AVAIT UG",
@@ -90,16 +90,22 @@
 
     "fieldName": "Name",
     "fieldNamePlacehold": "Geben Sie Ihren Namen ein ...",
+    "fieldNameErr": "Name ist erforderlich",
 
     "fieldEmail": "E-Mail",
     "fieldEmailPlacehold": "Geben Sie Ihre E-Mail ein ...",
+    "fieldEmailErr": "E-Mail ist erforderlich",
+    "fieldEmailErrFormat": "Ungültiges E-Mail-Format",
 
     "fieldSubject": "Betreff",
     "fieldSubjectPlacehold": "Geben Sie Ihren Betreff ein ...",
+    "fieldSubjectErr": "Betreff ist erforderlich",
 
     "fieldMessage": "Nachricht",
     "fieldMessagePlacehold": "Geben Sie Ihre Nachricht ein ...",
+    "fieldMessageErr": "Nachricht ist erforderlich",
 
-    "sendMessageBtn": "NACHRICHT SENDEN"
+    "sendMessageBtn": "SENDEN",
+    "loadingMessageBtn": "LOADING"
   }
 }

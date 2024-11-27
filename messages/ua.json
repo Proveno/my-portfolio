@@ -90,16 +90,22 @@
 
     "fieldName": "Ім'я",
     "fieldNamePlacehold": "Введіть ваше ім'я ...",
+    "fieldNameErr": "Ім'я необхідне",
 
     "fieldEmail": "Ел. пошта",
     "fieldEmailPlacehold": "Введіть вашу пошту ...",
+    "fieldEmailErr": "Ел. пошта необхідна",
+    "fieldEmailErrFormat": "Неправильний формат ел. пошти",
 
     "fieldSubject": "Тема",
     "fieldSubjectPlacehold": "Введіть тему ...",
+    "fieldSubjectErr": "Тема необхідна",
 
     "fieldMessage": "Повідомлення",
     "fieldMessagePlacehold": "Введіть повідомлення ...",
+    "fieldMessageErr": "Повідомлення необхідно",
 
-    "sendMessageBtn": "НАДІСЛАТИ ПОВІДОМЛЕННЯ"
+    "sendMessageBtn": "НАДІСЛАТИ ПОВІДОМЛЕННЯ",
+    "loadingMessageBtn": "ЗАВАНТАЖЕННЯ"
   }
 }

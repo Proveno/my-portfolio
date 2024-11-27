@@ -90,16 +90,22 @@
 
     "fieldName": "Name",
     "fieldNamePlacehold": "Enter Your Name ...",
+    "fieldNameErr": "Name is required",
 
     "fieldEmail": "Email",
     "fieldEmailPlacehold": "Enter Your Email ...",
+    "fieldEmailErr": "Email is required",
+    "fieldEmailErrFormat": "Invalid email format",
 
     "fieldSubject": "Subject",
     "fieldSubjectPlacehold": "Enter Your Subject ...",
+    "fieldSubjectErr": "Subject is required",
 
     "fieldMessage": "Message",
     "fieldMessagePlacehold": "Enter Your Message ...",
+    "fieldMessageErr": "Message is required",
 
-    "sendMessageBtn": "SEND MESSAGE"
+    "sendMessageBtn": "SEND MESSAGE",
+    "loadingMessageBtn": "LOADING"
   }
 }

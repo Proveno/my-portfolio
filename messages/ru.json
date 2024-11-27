@@ -90,16 +90,22 @@
 
     "fieldName": "Имя",
     "fieldNamePlacehold": "Введите ваше имя ...",
+    "fieldNameErr": "Имя необходимо",
 
     "fieldEmail": "Эл. почта",
     "fieldEmailPlacehold": "Введите вашу почту ...",
+    "fieldEmailErr": "Эл. почта необходима",
+    "fieldEmailErrFormat": "Неправильный формат эл. почты",
 
     "fieldSubject": "Тема",
     "fieldSubjectPlacehold": "Введите тему ...",
+    "fieldSubjectErr": "Тема необходима",
 
     "fieldMessage": "Сообщение",
     "fieldMessagePlacehold": "Введите сообщение ...",
+    "fieldMessageErr": "Сообщение необходимо",
 
-    "sendMessageBtn": "ОТПРАВИТЬ СООБЩЕНИЕ"
+    "sendMessageBtn": "ОТПРАВИТЬ СООБЩЕНИЕ",
+    "loadingMessageBtn": "ЗАГРУЗКА"
   }
 }

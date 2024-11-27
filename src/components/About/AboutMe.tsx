@@ -58,7 +58,12 @@ const AboutMe = () => {
               {/* Отступ слева для больших экранов */}
               <Typography
                 variant='h5'
-                sx={{ fontWeight: 'bold', textAlign: 'center', mt: { xs: 2, md: 2 } }}
+                sx={{
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  fontSize: { xs: 20, md: 22 },
+                  mt: { xs: 2, md: 2 },
+                }}
               >
                 {t('personalInfo')}
               </Typography>
