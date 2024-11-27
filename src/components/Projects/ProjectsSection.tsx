@@ -1,29 +1,30 @@
 import { Box, Grid, Typography } from '@mui/material'
 import ProjectCard from './ProjectCard'
-
-const projects = [
-  {
-    image: '/assets/projects/ItTutor.png',
-    title: 'IT-Tutor',
-    description:
-      'Online IT courses service that offers a wide selection of learning materials and interactive courses on various IT topics. The user-friendly platform helps beginners and advanced users improve their technical skills.',
-    technologies: ['Next JS 13', 'TypeScript', 'Material UI', 'GPT API'],
-    link: 'https://www.it-tutor.ai/',
-    enabled: true,
-  },
-  {
-    image: '/assets/projects/Frion.png',
-    title: 'Frion',
-    description:
-      'Frion is a platform for a fictitious animal shelter that offers various services related to pets. Users can register pets for adoption, surrender found animals or request treatment for their animals. The site also offers a product selection for animals as well as the possibility to find emergency shelters nearby. All requests are confirmed with the operators via messenger, email or phone. The platform is multilingual and offers a user-friendly interface for animal lovers.',
-    technologies: ['Next JS 13', 'JavaScript', 'Tailwind', 'Mongo DB'],
-    link: 'https://frion-app.vercel.app/de',
-    enabled: true,
-  },
-  // Добавьте больше проектов здесь
-]
+import { useTranslations } from 'next-intl'
 
 const ProjectsSection = () => {
+  const t = useTranslations('projects')
+
+  const projects = [
+    {
+      image: '/assets/projects/ItTutor.png',
+      title: t('proj1Name'),
+      description: t('proj1About'),
+      technologies: ['Next JS 13', 'TypeScript', 'Material UI', 'GPT API'],
+      link: 'https://www.it-tutor.ai/',
+      enabled: true,
+    },
+    {
+      image: '/assets/projects/Frion.png',
+      title: t('proj2Name'),
+      description: t('proj2About'),
+      technologies: ['Next JS 13', 'JavaScript', 'Tailwind', 'Mongo DB'],
+      link: 'https://frion-app.vercel.app/de',
+      enabled: true,
+    },
+    // Добавьте больше проектов здесь
+  ]
+
   return (
     <Box
       display='flex'
@@ -40,7 +41,7 @@ const ProjectsSection = () => {
       }}
     >
       <Typography variant='h3' sx={{ fontWeight: 'bold', mb: 4 }}>
-        MY <span style={{ color: '#34d399' }}>PROJECTS</span>
+        {t('myProjectsPart1')} <span style={{ color: '#34d399' }}>{t('myProjectsPart2')}</span>
       </Typography>
       <Box className='flex justify-center w-full'>
         <Grid container spacing={4} justifyContent='center'>

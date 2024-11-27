@@ -1,7 +1,105 @@
 {
-  "TESTChapter": {
-    "test1": "3",
-    "test2": "3",
-    "test2": "3"
+  "homePage": {
+    "IAm": "Ich bin",
+    "Maksym": "Maksym Riznyk",
+    "softwareDeveloper": "SOFTWAREENTWICKLER",
+    "textAboutMe": "Ich bin Student und Webentwickler mit über drei Jahren Erfahrung im Aufbau moderner Webanwendungen. Ich spezialisiere mich auf React, Next.js sowie Frontend- und Backend-Entwicklung. Zu meinen Kernkompetenzen gehören die Arbeit mit Datenbanken (MongoDB, MariaDB) und die Erstellung von responsiven Benutzeroberflächen mit CSS, Tailwind CSS, Material UI.",
+    "download": "LADEN SIE DEN LEBENSLAUF HERUNTER"
+  },
+  "aboutPage": {
+    "aboutPart1": "ABOUT",
+    "aboutPart2": "ME",
+    "personalInfo": "PERSÖNLICHE INFORMATIONEN",
+    "name": "Name",
+    "nameContent": "Maksym Riznyk",
+    "age": "Alter",
+    "ageContent": "19",
+    "phone": "Telefon",
+    "phoneContent": "+49 1512 4108711",
+    "email": "E-Mail",
+    "emailContent": "reznikmaksym14@gmail.com",
+    "address": "Adresse",
+    "addressContent": "Trittauer Amtsweg 51a",
+    "languages": "Sprachen",
+    "languagesContent": "Deutsch, Englisch, Russisch, Ukrainisch",
+    "nationality": "Nationalität",
+    "nationalityContent": "Ukrainisch",
+
+    "box1": "GROSSE PROJEKTE",
+    "box2": "SPRACHEN",
+    "box3": "TECHNOLOGIEN",
+    "box4": "JAHRE ERFAHRUNG",
+    "box5": "JAHRE AUSBILDUNG",
+
+    "mySkillsPart1": "MY",
+    "mySkillsPart2": "SKILLS",
+
+    "levelAdvanced": "Fortgeschritten",
+    "levelIntermediate": "Mittelstufe",
+    "levelBeginner": "Anfänger",
+
+    "coverLetterPart1": "BEWERBUNGS",
+    "coverLetterPart2": "SCHREIBEN",
+
+    "workingExperience": "Berufserfahrung",
+    "education": "Bildung",
+
+    "present": "Gegenwart",
+
+    "work1PosName": "Full-Stack-Entwickler",
+    "work1Name": "AVAIT UG",
+    "work1About": "Entwicklung von Frontend- und Backend-Komponenten für eine umfassende Webanwendung. Dazu gehört die Implementierung von responsiven Benutzeroberflächen mit modernen Frameworks sowie die nahtlose Integration in die Serverarchitektur. Erstellung und Optimierung von Datenbanken zur effizienten Speicherung und Abfrage von Daten bei gleichzeitiger Umsetzung robuster Sicherheitsmaßnahmen. Design und Umsetzung von funktionalen Elementen wie interaktiven Formularen, dynamischem Content-Loading und benutzerfreundlicher Navigation zur Verbesserung der gesamten Nutzererfahrung.",
+
+    "work2PosName": "Frontend-Entwickler",
+    "work2Name": "IT-TUTOR",
+    "work2About": "Entwicklung des Frontends einer Webanwendung mit besonderem Fokus auf Design und Implementierung benutzerfreundlicher UI-Komponenten, die eine optimale Benutzererfahrung gewährleisten. Besonderer Wert wird auf ein responsives Design gelegt, das eine geräteübergreifende Anpassung ermöglicht, um auf Smartphones, Tablets und Desktop-Computern gleichermaßen hohe Funktionalität und Ästhetik zu bieten. Darüber hinaus werden Mechanismen zur sicheren Verarbeitung von Daten auf der Clientseite implementiert, um sowohl die Datensicherheit als auch den Schutz der Privatsphäre der Benutzer zu gewährleisten.",
+
+    "work3PosName": "Praktikant (Frontend)",
+    "work3Name": "Foodba",
+    "work3About": "Entwicklung des Frontends einer Webanwendung mit Schwerpunkt auf der Schaffung einer intuitiven und ansprechenden Benutzeroberfläche, die eine positive Benutzererfahrung sicherstellt. Dazu gehören das Design und die Umsetzung von Designkonzepten, einschließlich der Entwicklung eines einheitlichen visuellen Erscheinungsbildes und der Anwendung von UX-Prinzipien. Darüber hinaus liegt der Fokus auf der Erstellung funktionaler Elemente der Anwendung wie interaktive Komponenten, Formulare, Navigationselemente und dynamische Inhalte, die die Gesamtfunktionalität der Webanwendung unterstützen und verbessern.",
+
+    "edu1PosName": "Student, T-Kurs",
+    "edu1Name": "Studienkolleg Hamburg",
+    "edu1About": "Abschluss des Studienkollegs mit erfolgreicher Feststellungsprüfung (FSP), die als Qualifikation für den Beginn eines Fachstudiums in Deutschland dient. Der T-Kurs konzentriert sich auf die Vorbereitung auf ein späteres Studium. Deutschkenntnisse werden auf ein akademisches Niveau vertieft, um den Kurs erfolgreich auf Deutsch zu absolvieren. Außerdem erfolgt eine intensive Auseinandersetzung mit technischen Grundlagen in Mathematik, Physik und Informatik.",
+
+    "edu2PosName": "Softwareentwickler",
+    "edu2Name": "IT-Akademie 'Step'",
+    "edu2About": "Abschluss eines Diploms als Softwareentwickler mit umfassenden Kenntnissen moderner Programmiersprachen und Technologien. Dazu gehören die Entwicklung von Webanwendungen mit JavaScript, HTML und CSS, Softwarelösungen mit C++ und Anwendungen auf Basis von C# und .NET. Darüber hinaus wurden Kenntnisse in serverseitiger Programmierung mit Node.js und Frontend-Entwicklung mit Angular und React vermittelt. Die Spezialisierung lag auf Java-Programmierung und Android-Entwicklung, was dem Studenten ein solides Skillset zur Erstellung moderner Softwarelösungen vermittelte.",
+
+    "edu3PosName": "Schüler",
+    "edu3Name": "Gymnasium Nr. 31, Zaporizhzhia",
+    "edu3About": "Abschluss der Schulausbildung mit erfolgreichem Erwerb umfassender Kenntnisse in Mathematik, Naturwissenschaften, Sprachen und Informatik. Während der Schulzeit wurden wichtige soziale und organisatorische Fähigkeiten entwickelt, die als Grundlage für die weitere akademische und berufliche Laufbahn dienen."
+  },
+  "projects": {
+    "myProjectsPart1": "MY",
+    "myProjectsPart2": "PROJECT",
+    "viewProjBtn": "PROJEKT ANSEHEN",
+
+    "proj1Name": "IT-Tutor",
+    "proj1About": "Online-Service für IT-Kurse, der eine große Auswahl an Lernmaterialien und interaktiven Kursen zu verschiedenen IT-Themen anbietet. Die benutzerfreundliche Plattform hilft sowohl Anfängern als auch Fortgeschrittenen, ihre technischen Fähigkeiten zu verbessern.",
+
+    "proj2Name": "Frion",
+    "proj2About": "Frion ist eine Plattform für ein fiktives Tierheim, das verschiedene Dienstleistungen rund um Haustiere anbietet. Benutzer können Haustiere zur Adoption anmelden, gefundene Tiere abgeben oder Behandlungen für ihre Tiere anfordern. Die Website bietet außerdem eine Produktauswahl für Tiere sowie die Möglichkeit, Notunterkünfte in der Nähe zu finden. Alle Anfragen werden über Messenger, E-Mail oder Telefon mit den Betreibern bestätigt. Die Plattform ist mehrsprachig und bietet eine benutzerfreundliche Oberfläche für Tierliebhaber."
+  },
+  "contactPage": {
+    "contactMePart1": "KONTAKT",
+    "contactMePart2": "MICH",
+
+    "getInTouch": "Kontakt aufnehmen",
+    "contactText": "Wenn Sie Fragen an mich haben, hinterlassen Sie Ihre Kontaktdaten und eine Nachricht im Formular, und ich werde Ihnen gerne antworten! Lassen Sie uns gemeinsam komplexe Aufgaben in erfolgreiche digitale Lösungen verwandeln!",
+
+    "fieldName": "Name",
+    "fieldNamePlacehold": "Geben Sie Ihren Namen ein ...",
+
+    "fieldEmail": "E-Mail",
+    "fieldEmailPlacehold": "Geben Sie Ihre E-Mail ein ...",
+
+    "fieldSubject": "Betreff",
+    "fieldSubjectPlacehold": "Geben Sie Ihren Betreff ein ...",
+
+    "fieldMessage": "Nachricht",
+    "fieldMessagePlacehold": "Geben Sie Ihre Nachricht ein ...",
+
+    "sendMessageBtn": "NACHRICHT SENDEN"
   }
 }

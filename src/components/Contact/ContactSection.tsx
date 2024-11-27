@@ -10,8 +10,11 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 
 const ContactSection = () => {
+  const t = useTranslations('contactPage')
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -155,6 +158,7 @@ const ContactSection = () => {
       setIsSubmitting(false)
     }
   }
+
   return (
     <Box
       display='flex'
@@ -172,7 +176,7 @@ const ContactSection = () => {
     >
       {/* Заголовок */}
       <Typography variant='h3' sx={{ fontWeight: 'bold', mb: 4 }}>
-        CONTACT <span style={{ color: '#34d399' }}>ME</span>
+        {t('contactMePart1')} <span style={{ color: '#34d399' }}>{t('contactMePart2')}</span>
       </Typography>
 
       <Grid container spacing={4} sx={{ mt: 4 }} justifyContent='center'>
@@ -190,7 +194,7 @@ const ContactSection = () => {
           >
             {/* Заголовок */}
             <Typography variant='h5' sx={{ fontWeight: 'bold', mb: 1 }}>
-              Get in touch
+              {t('getInTouch')}
               <Box
                 sx={{
                   width: '100%',
@@ -203,9 +207,7 @@ const ContactSection = () => {
             </Typography>
 
             <Typography variant='body1' sx={{ mb: 3, textAlign: 'left', color: '#d1d5db' }}>
-              If you have any questions for me, leave your details and message in the form and I
-              will be happy to answer them! Lets turn complex tasks into successful digital
-              solutions together!
+              {t('contactText')}
             </Typography>
 
             {/* Адрес */}
@@ -326,11 +328,11 @@ const ContactSection = () => {
             }}
           >
             <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Name:
+              {t('fieldName')}:
             </Typography>
             <TextField
               fullWidth
-              placeholder='Enter Your Name ...'
+              placeholder={t('fieldNamePlacehold')}
               variant='outlined'
               name='name'
               value={formData.name}
@@ -354,11 +356,11 @@ const ContactSection = () => {
             />
 
             <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Email:
+              {t('fieldEmail')}:
             </Typography>
             <TextField
               fullWidth
-              placeholder='Enter Your Email ...'
+              placeholder={t('fieldEmailPlacehold')}
               variant='outlined'
               name='email'
               value={formData.email}
@@ -382,11 +384,11 @@ const ContactSection = () => {
             />
 
             <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Subject:
+              {t('fieldSubject')}:
             </Typography>
             <TextField
               fullWidth
-              placeholder='Enter Your Subject ...'
+              placeholder={t('fieldSubjectPlacehold')}
               variant='outlined'
               name='subject'
               value={formData.subject}
@@ -410,11 +412,11 @@ const ContactSection = () => {
             />
 
             <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Message:
+              {t('fieldMessage')}:
             </Typography>
             <TextField
               fullWidth
-              placeholder='Enter Your Message ...'
+              placeholder={t('fieldMessagePlacehold')}
               variant='outlined'
               multiline
               rows={4}
@@ -455,116 +457,10 @@ const ContactSection = () => {
                 },
               }}
             >
-              {isSubmitting ? 'SENDING...' : 'SEND MESSAGE'}
+              {isSubmitting ? 'SENDING...' : t('sendMessageBtn')}
             </Button>
           </Box>
         </Grid>
-
-        {/* <Grid item xs={12} md={5}>
-          <Box
-            component='form'
-            onSubmit={handleSubmit}
-            sx={{
-              backgroundColor: '#2e2e4d',
-              padding: 3,
-              borderRadius: '8px',
-              boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)',
-            }}
-          >
-            <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Name:
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder='Enter Your Name ...'
-              variant='outlined'
-              name='name'
-              value={formData.name}
-              onChange={handleChange}
-              sx={{
-                mb: 2,
-                backgroundColor: '#374151',
-                borderRadius: '4px',
-                input: { color: 'white' },
-              }}
-            />
-
-            <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Email:
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder='Enter Your Email ...'
-              variant='outlined'
-              name='email'
-              value={formData.email}
-              onChange={handleChange}
-              sx={{
-                mb: 2,
-                backgroundColor: '#374151',
-                borderRadius: '4px',
-                input: { color: 'white' },
-              }}
-            />
-
-            <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Subject:
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder='Enter Your Subject ...'
-              variant='outlined'
-              name='subject'
-              value={formData.subject}
-              onChange={handleChange}
-              sx={{
-                mb: 2,
-                backgroundColor: '#374151',
-                borderRadius: '4px',
-                input: { color: 'white' },
-              }}
-            />
-
-            <Typography variant='body1' sx={{ mb: 1, color: '#d1d5db', textAlign: 'left' }}>
-              Message:
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder='Enter Your Message ...'
-              variant='outlined'
-              multiline
-              rows={4}
-              inputProps={{ style: { color: 'white' } }}
-              name='message'
-              value={formData.message}
-              onChange={handleChange}
-              sx={{
-                mb: 3,
-                backgroundColor: '#374151',
-                borderRadius: '4px',
-                input: { color: 'white' },
-              }}
-            />
-
-            <Button
-              type='submit'
-              variant='contained'
-              disabled={isSubmitting}
-              sx={{
-                backgroundColor: '#34d399',
-                color: 'white',
-                fontWeight: 'bold',
-                padding: '0.8rem 1.5rem',
-                borderRadius: '4px',
-                '&:hover': {
-                  backgroundColor: '#2f8a6f',
-                },
-              }}
-            >
-              {isSubmitting ? 'SENDING...' : 'SEND MESSAGE'}
-            </Button>
-          </Box>
-        </Grid> */}
       </Grid>
     </Box>
   )

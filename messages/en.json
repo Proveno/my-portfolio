@@ -1,8 +1,105 @@
 {
-  "title": "123",
-  "TESTChapter": {
-    "test1": "1",
-    "test2": "1",
-    "test2": "1"
+  "homePage": {
+    "IAm": "I am",
+    "Maksym": "Maksym Riznyk",
+    "softwareDeveloper": "SOFTWARE DEVELOPER",
+    "textAboutMe": "I am a student and web developer with over three years of experience in building modern web applications. I specialize in React, Next.js, as well as frontend and backend development. My key competencies include working with databases (MongoDB, MariaDB) and creating responsive user interfaces using CSS, Tailwind CSS, Material UI.",
+    "download": "DOWNLOAD CV"
+  },
+  "aboutPage": {
+    "aboutPart1": "ABOUT",
+    "aboutPart2": "ME",
+    "personalInfo": "PERSONAL INFOS",
+    "name": "Name",
+    "nameContent": "Maksym Riznyk",
+    "age": "Age",
+    "ageContent": "19",
+    "phone": "Phone",
+    "phoneContent": "+49 1512 4108711",
+    "email": "Email",
+    "emailContent": "reznikmaksym14@gmail.com",
+    "address": "Address",
+    "addressContent": "Trittauer Amtsweg 51a",
+    "languages": "Languages",
+    "languagesContent": "German, English, Russian, Ukrainian",
+    "nationality": "Nationality",
+    "nationalityContent": "Ukrainian",
+
+    "box1": "BIG PROJECTS",
+    "box2": "LANGUAGES",
+    "box3": "TECHNOLOGIES",
+    "box4": "YEARS OF EXPERIENCE",
+    "box5": "YEARS OF EDUCATION",
+
+    "mySkillsPart1": "MY",
+    "mySkillsPart2": "SKILLS",
+
+    "levelAdvanced": "Advanced",
+    "levelIntermediate": "Intermediate",
+    "levelBeginner": "Beginner",
+
+    "coverLetterPart1": "COVER",
+    "coverLetterPart2": "LETTER",
+
+    "workingExperience": "Working Experience",
+    "education": "Education",
+
+    "present": "Present",
+
+    "work1PosName": "Full-stack developer",
+    "work1Name": "AVAIT UG",
+    "work1About": "Development of both front-end and back-end components for a comprehensive web application. This includes implementing responsive user interfaces using modern frameworks and ensuring seamless integration with the server-side architecture. Creation and optimization of databases to efficiently store and retrieve data while implementing robust data security measures to safeguard sensitive information. Design and implementation of functional elements such as interactive forms, dynamic content loading, and user-friendly navigation to enhance the overall application experience.",
+
+    "work2PosName": "Front-end developer",
+    "work2Name": "IT-TUTOR",
+    "work2About": "Development of the frontend of the web application with a special focus on the design and implementation of user-friendly UI components that ensure an optimal user experience. Great emphasis is placed on a responsive design that enables cross-device adaptation in order to offer high functionality and aesthetics on smartphones, tablets and desktop computers alike. Also, mechanisms for the secure processing of data on the client side are implemented to ensure both data security and the protection of user privacy.",
+
+    "work3PosName": "Intern(Front-end) ",
+    "work3Name": "Foodba",
+    "work3About": "Development of the frontend for the web application with a focus on creating an intuitive and engaging user interface that ensures a positive user experience. This includes the design and implementation of design concepts, including the development of a consistent visual appearance and the application of UX principles. Furthermore, special emphasis is placed on the creation of functional elements of the application, such as interactive components, forms, navigation elements and dynamic content that support and enhance the overall functionality of the web application.",
+
+    "edu1PosName": "Student, T-Course ",
+    "edu1Name": "Studienkolleg Hamburg",
+    "edu1About": "Completion of the preparatory college with a successful assessment test (FSP), which serves as a qualification for starting a specialist course in Germany. The T course focuses on preparation for later studies. German language skills are deepened to an academic level in order to successfully complete the course in German. Moreover, there is an intensive examination of technical fundamentals in mathematics, physics and computer science.",
+
+    "edu2PosName": "Software developer",
+    "edu2Name": "IT-Academy 'Step'",
+    "edu2About": "Completion of a diploma as a software developer with comprehensive knowledge of modern programming languages ​​and technologies. This includes the development of web applications with JavaScript, HTML and CSS, software solutions with C++ and applications based on C# and .NET. In addition, knowledge of server-side programming with Node.js and front-end development with Angular and React was imparted. Specialization was in Java programming and Android development, which gave the student a solid skill set in creating modern software solutions.",
+
+    "edu3PosName": "Schooler",
+    "edu3Name": "Gymnasium No. 31, Zaporizhzhia",
+    "edu3About": "Completion of school education with successful acquisition of wonderful knowledge in mathematics, science, languages ​​and computer science. During school, important social and organizational skills were developed that serve as a basis for further academic and professional careers."
+  },
+  "projects": {
+    "myProjectsPart1": "MY",
+    "myProjectsPart2": "PROJECT",
+    "viewProjBtn": "VIEW PROJECTS",
+
+    "proj1Name": "IT-Tutor",
+    "proj1About": "Online IT courses service that offers a wide selection of learning materials and interactive courses on various IT topics. The user-friendly platform helps beginners and advanced users improve their technical skills.",
+
+    "proj2Name": "Frion",
+    "proj2About": "Frion is a platform for a fictitious animal shelter that offers various services related to pets. Users can register pets for adoption, surrender found animals or request treatment for their animals. The site also offers a product selection for animals as well as the possibility to find emergency shelters nearby. All requests are confirmed with the operators via messenger, email or phone. The platform is multilingual and offers a user-friendly interface for animal lovers."
+  },
+  "contactPage": {
+    "contactMePart1": "CONTACT",
+    "contactMePart2": "ME",
+
+    "getInTouch": "Get in touch",
+    "contactText": "If you have any questions for me, leave your details and message in the form and I will be happy to answer them! Lets turn complex tasks into successful digital solutions together!",
+
+    "fieldName": "Name",
+    "fieldNamePlacehold": "Enter Your Name ...",
+
+    "fieldEmail": "Email",
+    "fieldEmailPlacehold": "Enter Your Email ...",
+
+    "fieldSubject": "Subject",
+    "fieldSubjectPlacehold": "Enter Your Subject ...",
+
+    "fieldMessage": "Message",
+    "fieldMessagePlacehold": "Enter Your Message ...",
+
+    "sendMessageBtn": "SEND MESSAGE"
   }
 }

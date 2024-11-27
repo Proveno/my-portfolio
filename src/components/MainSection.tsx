@@ -1,7 +1,9 @@
 import { Box, Typography, Button, IconButton } from '@mui/material'
 import { GitHub, LinkedIn, Instagram } from '@mui/icons-material'
+import { useTranslations } from 'next-intl'
 
 const MainSection = () => {
+  const t = useTranslations('homePage')
   return (
     <Box
       display='flex'
@@ -19,20 +21,17 @@ const MainSection = () => {
     >
       {/* Заголовок */}
       <Typography variant='h3' component='h1' sx={{ fontWeight: 'bold' }}>
-        I am <span style={{ color: '#34d399' }}>Maksym Riznyk</span>
+        {t('IAm')} <span style={{ color: '#34d399' }}>{t('Maksym')}</span>
       </Typography>
 
       {/* Подзаголовок */}
       <Typography variant='h5' sx={{ fontWeight: 'bold', mt: 1 }}>
-        SOFTWARE DEVELOPER
+        {t('softwareDeveloper')}
       </Typography>
 
       {/* Описание */}
       <Typography variant='body1' sx={{ maxWidth: '800px', mt: 2, mb: 4 }}>
-        I am a student and web developer with over three years of experience in building modern web
-        applications. I specialize in React, Next.js, as well as frontend and backend development.
-        My key competencies include working with databases (MongoDB, MariaDB) and creating
-        responsive user interfaces using CSS, Tailwind CSS, Material UI.
+        {t('textAboutMe')}
       </Typography>
 
       {/* Социальные иконки */}
@@ -74,7 +73,7 @@ const MainSection = () => {
         href='/assets/Maksym Riznyk Lebenslauf.pdf'
         download
       >
-        Download CV
+        {t('download')}
       </Button>
     </Box>
   )

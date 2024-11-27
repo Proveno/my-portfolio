@@ -1,7 +1,9 @@
 import { Box, Typography, Avatar, Grid, Paper } from '@mui/material'
 import { motion } from 'framer-motion'
+import { useTranslations } from 'next-intl'
 
 const AboutMe = () => {
+  const t = useTranslations('aboutPage')
   return (
     <Box
       sx={{
@@ -16,7 +18,7 @@ const AboutMe = () => {
     >
       {/* Заголовок */}
       <Typography variant='h3' sx={{ fontWeight: 'bold', mb: 2 }}>
-        ABOUT <span style={{ color: '#34d399' }}>ME</span>
+        {t('aboutPart1')} <span style={{ color: '#34d399' }}>{t('aboutPart2')}</span>
       </Typography>
 
       <Box
@@ -58,29 +60,29 @@ const AboutMe = () => {
                 variant='h5'
                 sx={{ fontWeight: 'bold', textAlign: 'center', mt: { xs: 2, md: 2 } }}
               >
-                PERSONAL INFOS
+                {t('personalInfo')}
               </Typography>
               <Box mt={2} sx={{ maxWidth: { xs: '100%', md: 270 }, mx: { xs: 'auto', md: 0 } }}>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Name:</b> Maksym Riznyk
+                  <b className='text-[#34d399]'> {t('name')}:</b> {t('nameContent')}
                 </Typography>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Age:</b> 19
+                  <b className='text-[#34d399]'>{t('age')}:</b> {t('ageContent')}
                 </Typography>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Phone:</b> +49 1512 4108711
+                  <b className='text-[#34d399]'>{t('phone')}:</b> {t('phoneContent')}
                 </Typography>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Email:</b> reznikmaksym14@gmail.com
+                  <b className='text-[#34d399]'>{t('email')}:</b> {t('emailContent')}
                 </Typography>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Address:</b> Trittauer Amtsweg 51a
+                  <b className='text-[#34d399]'>{t('address')}:</b> {t('addressContent')}
                 </Typography>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Languages:</b> German, English, Russian, Ukrainian
+                  <b className='text-[#34d399]'>{t('languages')}:</b> {t('languagesContent')}
                 </Typography>
                 <Typography variant='body1'>
-                  <b className='text-[#34d399]'>Nationality:</b> Ukrainian
+                  <b className='text-[#34d399]'>{t('nationality')}:</b> {t('nationalityContent')}
                 </Typography>
               </Box>
             </Box>
@@ -95,11 +97,11 @@ const AboutMe = () => {
           justifyContent='center'
         >
           {[
-            { label: 'BIG PROJECTS', value: '4+' },
-            { label: 'LANGUAGES', value: '4' },
-            { label: 'TECHNOLOGIES', value: '10+' },
-            { label: 'YEARS OF EXPERIENCE', value: '3+' },
-            { label: 'YEARS OF EDUCATION', value: '2+' },
+            { label: t('box1'), value: '4+' },
+            { label: t('box2'), value: '4' },
+            { label: t('box3'), value: '10+' },
+            { label: t('box4'), value: '3+' },
+            { label: t('box5'), value: '3+' },
             { label: '', value: '...' },
           ].map((item, index) => (
             <Grid item xs={6} sm={4} key={index}>

@@ -1,28 +1,29 @@
 import { Box, Typography, Grid, Paper } from '@mui/material'
 import { motion } from 'framer-motion'
-
-const skills = [
-  { name: 'HTML5', level: 'Advanced' },
-  { name: 'CSS3', level: 'Advanced' },
-  { name: 'JavaScript', level: 'Advanced' },
-  { name: 'TypeScript', level: 'Advanced' },
-  { name: 'NextJS', level: 'Advanced' },
-  { name: 'React', level: 'Advanced' },
-  { name: 'Tailwind', level: 'Intermediate' },
-  { name: 'Bootstrap', level: 'Intermediate' },
-
-  { name: 'NodeJS', level: 'Intermediate' },
-  { name: 'Mongo DB', level: 'Intermediate' },
-
-  { name: 'Git', level: 'Intermediate' },
-  { name: 'Maria DB', level: 'Beginner' },
-  { name: 'C++', level: 'Beginner' },
-  { name: 'C#', level: 'Beginner' },
-  { name: 'Java', level: 'Beginner' },
-  { name: 'Android', level: 'Beginner' },
-]
+import { useTranslations } from 'next-intl'
 
 const Skills = () => {
+  const t = useTranslations('aboutPage')
+  const skills = [
+    { name: 'HTML5', level: t('levelAdvanced') },
+    { name: 'CSS3', level: t('levelAdvanced') },
+    { name: 'JavaScript', level: t('levelAdvanced') },
+    { name: 'TypeScript', level: t('levelAdvanced') },
+    { name: 'NextJS', level: t('levelAdvanced') },
+    { name: 'React', level: t('levelAdvanced') },
+    { name: 'Tailwind', level: t('levelIntermediate') },
+    { name: 'Bootstrap', level: t('levelIntermediate') },
+
+    { name: 'NodeJS', level: t('levelIntermediate') },
+    { name: 'Mongo DB', level: t('levelIntermediate') },
+
+    { name: 'Git', level: t('levelIntermediate') },
+    { name: 'Maria DB', level: t('levelBeginner') },
+    { name: 'C++', level: t('levelBeginner') },
+    { name: 'C#', level: t('levelBeginner') },
+    { name: 'Java', level: t('levelBeginner') },
+    { name: 'Android', level: t('levelBeginner') },
+  ]
   return (
     <Box
       sx={{
@@ -37,7 +38,7 @@ const Skills = () => {
     >
       {/* Заголовок */}
       <Typography variant='h3' sx={{ fontWeight: 'bold', mb: 2 }}>
-        MY <span style={{ color: '#34d399' }}>SKILLS</span>
+        {t('mySkillsPart1')} <span style={{ color: '#34d399' }}>{t('mySkillsPart2')}</span>
       </Typography>
 
       {/* Список навыков */}

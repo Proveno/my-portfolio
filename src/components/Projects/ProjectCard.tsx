@@ -1,4 +1,5 @@
 import { Box, Typography, Button, Chip } from '@mui/material'
+import { useTranslations } from 'next-intl'
 
 interface ProjectCardProps {
   image: string
@@ -9,6 +10,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ image, title, description, technologies, link }: ProjectCardProps) => {
+  const t = useTranslations('projects')
   return (
     <Box
       sx={{
@@ -102,7 +104,7 @@ const ProjectCard = ({ image, title, description, technologies, link }: ProjectC
             },
           }}
         >
-          View Project
+          {t('viewProjBtn')}
         </Button>
       </Box>
     </Box>
