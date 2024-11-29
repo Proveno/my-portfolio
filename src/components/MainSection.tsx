@@ -1,6 +1,7 @@
 import { Box, Typography, Button, IconButton } from '@mui/material'
 import { GitHub, LinkedIn, Instagram } from '@mui/icons-material'
 import { useTranslations } from 'next-intl'
+import TypingSubtitle from './TypingSubtitle'
 
 const MainSection = () => {
   const t = useTranslations('homePage')
@@ -25,9 +26,9 @@ const MainSection = () => {
       </Typography>
 
       {/* Подзаголовок */}
-      <Typography variant='h5' sx={{ fontWeight: 'bold', mt: 1 }}>
-        {t('softwareDeveloper')}
-      </Typography>
+      <Box sx={{ mt: 1 }}>
+        <TypingSubtitle text={t('softwareDeveloper')} speed={100} loopDelay={2} />
+      </Box>
 
       {/* Описание */}
       <Typography variant='body1' sx={{ maxWidth: '800px', mt: 2, mb: 4 }}>
