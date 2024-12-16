@@ -2,6 +2,7 @@ import { Box, Typography, Grid } from '@mui/material'
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory'
 import SchoolIcon from '@mui/icons-material/School'
 import { useTranslations } from 'next-intl'
+import { RevealOnScroll } from '../RevealScroll'
 
 const Experience = () => {
   const t = useTranslations('aboutPage')
@@ -60,9 +61,11 @@ const Experience = () => {
       }}
     >
       {/* Заголовок */}
-      <Typography variant='h3' sx={{ fontWeight: 'bold', mb: 4 }}>
-        {t('coverLetterPart1')} <span style={{ color: '#34d399' }}>{t('coverLetterPart2')}</span>
-      </Typography>
+      <RevealOnScroll delay={0.2}>
+        <Typography variant='h3' sx={{ fontWeight: 'bold', mb: 4 }}>
+          {t('coverLetterPart1')} <span style={{ color: '#34d399' }}>{t('coverLetterPart2')}</span>
+        </Typography>
+      </RevealOnScroll>
 
       <Grid container spacing={4} sx={{ mt: 4 }} justifyContent='center'>
         {/* Опыт работы */}

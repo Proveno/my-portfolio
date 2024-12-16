@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material'
 import ProjectCard from './ProjectCard'
 import { useTranslations } from 'next-intl'
+import { RevealOnScroll } from '../RevealScroll'
 
 const ProjectsSection = () => {
   const t = useTranslations('projects')
@@ -47,7 +48,9 @@ const ProjectsSection = () => {
         <Grid container spacing={4} justifyContent='center'>
           {projects.map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index} className='flex justify-center w-full'>
-              <ProjectCard {...project} />
+              <RevealOnScroll delay={0.1 * index}>
+                <ProjectCard {...project} />
+              </RevealOnScroll>
             </Grid>
           ))}
         </Grid>

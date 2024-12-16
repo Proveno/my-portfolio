@@ -2,6 +2,7 @@ import { Box } from '@mui/material'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
 import Experience from './Experience'
+import { RevealOnScroll } from '../RevealScroll'
 
 const AboutSection = () => {
   return (
@@ -20,9 +21,15 @@ const AboutSection = () => {
         width: '100%',
       }}
     >
-      <AboutMe />
-      <Skills />
-      <Experience />
+      <RevealOnScroll delay={0.2}>
+        <AboutMe />
+      </RevealOnScroll>
+      <RevealOnScroll delay={0.4}>
+        <Skills />
+      </RevealOnScroll>
+      <RevealOnScroll delay={0.6}>
+        <Experience />
+      </RevealOnScroll>
     </Box>
   )
 }
