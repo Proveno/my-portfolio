@@ -72,14 +72,26 @@
   },
   "projects": {
     "myProjectsPart1": "MY",
-    "myProjectsPart2": "PROJECT",
-    "viewProjBtn": "VIEW PROJECTS",
+    "myProjectsPart2": "PROJECTS",
+    "viewProjBtn": "VIEW PROJECT",
 
-    "proj1Name": "IT-Tutor",
-    "proj1About": "Online IT courses service that offers a wide selection of learning materials and interactive courses on various IT topics. The user-friendly platform helps beginners and advanced users improve their technical skills.",
+    "proj1Name": "QStarr",
+    "proj1About": "Service Quality Control Platform is a comprehensive solution that enables companies to automate work verification and feedback collection processes. The system features a customizable form builder for creating tailored checklists, serving both internal employee reporting and external customer evaluation needs. A standout capability is the integrated geolocation and photo verification system - field technicians attach timestamped, location-stamped photos of work sites, completely eliminating any possibility of data falsification. The platform also includes automated reminders for scheduled quality checks, such as equipment maintenance or routine inspections, ensuring all compliance requirements are met on time. By digitizing these processes, the solution enhances operational transparency, improves data accuracy, and streamlines quality assurance workflows across service teams. The system ultimately helps organizations maintain consistent service standards while reducing administrative overhead associated with manual quality control procedures.",
 
-    "proj2Name": "Frion",
-    "proj2About": "Frion is a platform for a fictitious animal shelter that offers various services related to pets. Users can register pets for adoption, surrender found animals or request treatment for their animals. The site also offers a product selection for animals as well as the possibility to find emergency shelters nearby. All requests are confirmed with the operators via messenger, email or phone. The platform is multilingual and offers a user-friendly interface for animal lovers."
+    "proj2Name": "IT-Tutor",
+    "proj2About": "Online IT courses service that offers a wide selection of learning materials and interactive courses on various IT topics. The user-friendly platform helps beginners and advanced users improve their technical skills.",
+
+    "proj3Name": "HoneyTools",
+    "proj3About": "A platform for business process automation and accounting is a comprehensive solution that provides centralized data storage and processing with the capability to automatically import information from Excel spreadsheets into a structured database. A key feature of the system is the implementation of transaction monitoring tools, including the ability to attach counterparties' contact details, supporting documents, and track execution stages, as well as a suite of accounting reports with automated tax calculation and financial performance analysis functionality. The implementation of this solution has minimized data entry errors, increased transparency in business processes, and ensured prompt access to up-to-date financial reports.",
+
+    "proj4Name": "Vision of life",
+    "proj4About": "AI Business Plan Generator is an advanced platform that automatically transforms rough business ideas into complete, investment-ready business plans. Using neural network algorithms, the system analyzes user inputs and generates multiple viable business concepts, each accompanied by detailed financial projections and market analysis. After selecting a preferred option, the platform produces a comprehensive, structured document containing all essential sections - from product descriptions and market research to complete financial models with 1-5 year revenue/expense forecasts. The process culminates in automatic generation of a professionally formatted PDF document, complete with visual charts and corporate styling, ready for immediate presentation to investors or financial institutions. Particularly valuable for startups, SMEs and business consultants, the solution dramatically reduces time needed to prepare professional investment documentation while ensuring all critical business aspects are properly addressed. The AI engine continuously improves its recommendations based on market trends and successful business models, providing users with data-driven insights for optimal business planning.",
+
+    "proj5Name": "Frion",
+    "proj5About": "Frion is a platform for a fictitious animal shelter that offers various services related to pets. Users can register pets for adoption, surrender found animals or request treatment for their animals. The site also offers a product selection for animals as well as the possibility to find emergency shelters nearby. All requests are confirmed with the operators via messenger, email or phone. The platform is multilingual and offers a user-friendly interface for animal lovers.",
+
+    "proj6Name": "CB-Shchus",
+    "proj6About": "A website for an engineering design bureau, combining a portfolio of completed projects with a convenient order placement tool. The platform features an interactive project catalog with filtering by industry and technology, allowing clients to quickly assess the company's expertise. Key highlight – the online ordering system: users can create custom projects using a step-by-step configurator, upload technical requirements, and instantly receive a preliminary cost estimate. For the bureau’s team, there’s a secure backend section with automated request distribution and progress tracking."
   },
   "contactPage": {
     "contactMePart1": "CONTACT",

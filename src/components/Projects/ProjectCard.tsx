@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Chip } from '@mui/material'
+import { Box, Typography, Button, Chip, Grid } from '@mui/material'
 import { useTranslations } from 'next-intl'
 
 interface ProjectCardProps {
@@ -7,9 +7,17 @@ interface ProjectCardProps {
   description: string
   technologies: string[]
   link: string
+  enabled: boolean
 }
 
-const ProjectCard = ({ image, title, description, technologies, link }: ProjectCardProps) => {
+const ProjectCard = ({
+  image,
+  title,
+  description,
+  technologies,
+  link,
+  enabled,
+}: ProjectCardProps) => {
   const t = useTranslations('projects')
   return (
     <Box
@@ -25,20 +33,17 @@ const ProjectCard = ({ image, title, description, technologies, link }: ProjectC
         '&:hover': {
           transform: 'scale(1.05)',
         },
-        height: 520, // Фиксированная высота карточки
         display: 'flex',
         flexDirection: 'column',
+        height: '100%',
       }}
     >
-      {/* Фото проекта */}
       <Box
         component='img'
         src={image}
         alt={title}
         sx={{ width: '100%', height: 180, objectFit: 'cover' }}
       />
-
-      {/* Описание и детали проекта */}
       <Box
         sx={{
           padding: 2,
@@ -52,12 +57,10 @@ const ProjectCard = ({ image, title, description, technologies, link }: ProjectC
           <Typography variant='h6' sx={{ fontWeight: 'bold', mb: 1 }}>
             {title}
           </Typography>
-
-          {/* Описание с прокруткой при необходимости */}
           <Box
             sx={{
-              maxHeight: 100, // Фиксированная высота для описания
-              overflowY: 'auto', // Прокрутка только если текст не помещается
+              maxHeight: 100,
+              overflowY: 'auto',
               mb: 2,
             }}
           >
@@ -65,15 +68,13 @@ const ProjectCard = ({ image, title, description, technologies, link }: ProjectC
               {description}
             </Typography>
           </Box>
-
-          {/* Технологии с прокруткой при необходимости */}
           <Box
             sx={{
               display: 'flex',
               gap: 1,
               flexWrap: 'wrap',
-              maxHeight: 80, // Фиксированная высота для стека технологий
-              overflowY: 'auto', // Прокрутка только если чипы не помещаются
+              maxHeight: 80,
+              overflowY: 'auto',
               mb: 2,
             }}
           >
@@ -86,26 +87,26 @@ const ProjectCard = ({ image, title, description, technologies, link }: ProjectC
             ))}
           </Box>
         </Box>
-
-        {/* Кнопка перехода */}
-        <Button
-          href={link}
-          target='_blank'
-          rel='noopener noreferrer'
-          variant='contained'
-          sx={{
-            backgroundColor: '#34d399',
-            color: 'white',
-            fontWeight: 'bold',
-            width: '100%',
-            mt: 2,
-            '&:hover': {
-              backgroundColor: '#2f8a6f',
-            },
-          }}
-        >
-          {t('viewProjBtn')}
-        </Button>
+        {enabled && (
+          <Button
+            href={link}
+            target='_blank'
+            rel='noopener noreferrer'
+            variant='contained'
+            sx={{
+              backgroundColor: '#34d399',
+              color: 'white',
+              fontWeight: 'bold',
+              width: '100%',
+              mt: 2,
+              '&:hover': {
+                backgroundColor: '#2f8a6f',
+              },
+            }}
+          >
+            {t('viewProjBtn')}
+          </Button>
+        )}
       </Box>
     </Box>
   )
