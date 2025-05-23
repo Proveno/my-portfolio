@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Chip, Grid } from '@mui/material'
+import { Box, Typography, Button, Chip } from '@mui/material'
 import { useTranslations } from 'next-intl'
 
 interface ProjectCardProps {
