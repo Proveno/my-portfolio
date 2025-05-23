@@ -117,6 +117,7 @@ const NavBar = ({
                 backgroundColor: selectedSection == item.href ? '#34d399' : '#3a3a5c',
                 scale: 1.1,
               },
+              boxShadow: selectedSection == item.href ? '0 0 10px #34d399' : 'none',
             }}
           >
             {item.icon}
