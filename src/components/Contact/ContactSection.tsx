@@ -326,7 +326,7 @@ const ContactSection = () => {
         </Grid>
 
         {/* Форма обратной связи */}
-        <Grid item xs={12} md={5}>
+        {/* <Grid item xs={12} md={5}>
           <RevealOnScroll delay={0.6}>
             <Box
               component='form'
@@ -473,7 +473,7 @@ const ContactSection = () => {
               </Button>
             </Box>
           </RevealOnScroll>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   )
