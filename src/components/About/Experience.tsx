@@ -10,7 +10,7 @@ const Experience = () => {
     {
       title: t('work1PosName'),
       company: t('work1Name'),
-      period: '01.2023-' + t('present'),
+      period: '01.2023-12.2024',
       description: t('work1About'),
     },
     {
