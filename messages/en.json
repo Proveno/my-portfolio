@@ -3,7 +3,7 @@
     "IAm": "I am",
     "Maksym": "Maksym Riznyk",
     "softwareDeveloper": "SOFTWARE DEVELOPER",
-    "textAboutMe": "I am a web developer with over three years of experience in building modern web applications. I specialize in React, Next.js, as well as frontend and backend development. My key competencies include working with databases (MongoDB, MariaDB) and creating responsive user interfaces using CSS, Tailwind CSS, Material UI.",
+    "textAboutMe": "I am a web developer and a student at TU Hamburg with over three years of experience in building modern web applications. I specialize in React, Next.js, as well as frontend and backend development. My key competencies include working with databases (MongoDB, MariaDB) and creating responsive user interfaces using CSS, Tailwind CSS, Material UI.",
     "download": "DOWNLOAD CV"
   },
   "aboutPage": {
@@ -13,7 +13,7 @@
     "name": "Name",
     "nameContent": "Maksym Riznyk",
     "age": "Age",
-    "ageContent": "19",
+    "ageContent": "20",
     "phone": "Phone",
     "phoneContent": "+49 1512 4108711",
     "email": "Email",
@@ -58,6 +58,18 @@
     "work3Name": "Foodba",
     "work3About": "Development of the frontend for the web application with a focus on creating an intuitive and engaging user interface that ensures a positive user experience. This includes the design and implementation of design concepts, including the development of a consistent visual appearance and the application of UX principles. Furthermore, special emphasis is placed on the creation of functional elements of the application, such as interactive components, forms, navigation elements and dynamic content that support and enhance the overall functionality of the web application.",
 
+    "work4PosName": "Full Stack Developer",
+    "work4Name": "CB-Shchus",
+    "work4About": "Full-stack development of the corporate website for an engineering office, focusing on the efficient structuring and presentation of a large volume of technical projects and developments. The role encompassed the entire implementation, including user authentication and the integration of Google OAuth for seamless login. A central focus was on the conception and realization of a functional Admin Panel for the independent management and maintenance of all website content and project data by the engineering office. Additionally, the frontend was developed to ensure an intuitive and professional user interface.",
+
+    "work5PosName": "Frontend Developer",
+    "work5Name": "Vision of life",
+    "work5About": "As a Frontend Developer, I was crucially involved in the design and implementation of the user interface for the AI Business Plan Generator. The focus was on developing an intuitive multi-step user guidance system for capturing complex business ideas and visualizing data-driven results. This included creating interactive components for selecting generated business concepts and embedding financial projections (charts and graphs). Additionally, I was responsible for the frontend-side preparation of the final, professionally formatted PDF document to ensure the correct presentation of the structured reports.",
+
+    "work6PosName": "Full-Stack Developer",
+    "work6Name": "CertiFi",
+    "work6About": "Full-stack development of a scalable platform for festivals and musicians, enabling the rapid creation and management of event-specific websites. My main task involved backend development and the conception of the Admin Panel, which allowed for comprehensive customization of website elements (colors, content, forms), configuration of Google Analytics, and assignment of custom subdomains. A central focus was on implementing visitor registration and generating dynamically configurable digital tickets (Apple/Google Wallet passes). My technical backend responsibilities included setting up OTP and email services, managing subdomains, and integrating Google Storage for storing 3D assets for artist downloads.",
+
     "edu1PosName": "Student, T-Course ",
     "edu1Name": "Studienkolleg Hamburg",
     "edu1About": "Completion of the preparatory college with a successful assessment test (FSP), which serves as a qualification for starting a specialist course in Germany. The T course focuses on preparation for later studies. German language skills are deepened to an academic level in order to successfully complete the course in German. Moreover, there is an intensive examination of technical fundamentals in mathematics, physics and computer science.",
@@ -68,7 +80,11 @@
 
     "edu3PosName": "Schooler",
     "edu3Name": "Gymnasium No. 31, Zaporizhzhia",
-    "edu3About": "Completion of school education with successful acquisition of wonderful knowledge in mathematics, science, languages ​​and computer science. During school, important social and organizational skills were developed that serve as a basis for further academic and professional careers."
+    "edu3About": "Completion of school education with successful acquisition of wonderful knowledge in mathematics, science, languages ​​and computer science. During school, important social and organizational skills were developed that serve as a basis for further academic and professional careers.",
+
+    "edu4PosName": "Student, Bachelor of Computer Science",
+    "edu4Name": "TU Hamburg",
+    "edu4About": "Currently pursuing a Bachelor of Science (B.Sc.) in Computer Science at TU Hamburg. Focus areas include Software Engineering, Databases, and the theoretical foundations of computer systems, complemented by practical projects in Web and System Development."
   },
   "projects": {
     "myProjectsPart1": "MY",
@@ -91,7 +107,10 @@
     "proj5About": "Frion is a platform for a fictitious animal shelter that offers various services related to pets. Users can register pets for adoption, surrender found animals or request treatment for their animals. The site also offers a product selection for animals as well as the possibility to find emergency shelters nearby. All requests are confirmed with the operators via messenger, email or phone. The platform is multilingual and offers a user-friendly interface for animal lovers.",
 
     "proj6Name": "CB-Shchus",
-    "proj6About": "A website for an engineering design bureau, combining a portfolio of completed projects with a convenient order placement tool. The platform features an interactive project catalog with filtering by industry and technology, allowing clients to quickly assess the company's expertise. Key highlight – the online ordering system: users can create custom projects using a step-by-step configurator, upload technical requirements, and instantly receive a preliminary cost estimate. For the bureau’s team, there’s a secure backend section with automated request distribution and progress tracking."
+    "proj6About": "A website for an engineering design bureau, combining a portfolio of completed projects with a convenient order placement tool. The platform features an interactive project catalog with filtering by industry and technology, allowing clients to quickly assess the company's expertise. Key highlight – the online ordering system: users can create custom projects using a step-by-step configurator, upload technical requirements, and instantly receive a preliminary cost estimate. For the bureau’s team, there’s a secure backend section with automated request distribution and progress tracking.",
+
+    "proj7Name": "CertiFi",
+    "proj7About": "A scalable platform for festivals and musicians, designed for the rapid creation and management of event-specific websites. The Admin Panel allows for comprehensive configuration of the visual design (colors, content, registration forms), setup of Google Analytics, and assignment of custom subdomains. The main function of the websites is visitor registration and the generation of dynamically configurable digital tickets (Apple/Google Wallet passes), the configuration of which is also handled via the Admin Panel. The platform also offers artists the ability to provide unique 3D assets for download."
   },
   "contactPage": {
     "contactMePart1": "CONTACT",

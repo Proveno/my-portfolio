@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       'https://api.mailersend.com/v1/email',
       {
         from: {
-          email: 'MS_t6XB3P@trial-jy7zpl9kvqp45vx6.mlsender.net',
+          email: 'MS_JhrYNs@test-z0vklo6wkm1l7qrx.mlsender.net',
           name: fromName || 'Proven',
         },
         to: [

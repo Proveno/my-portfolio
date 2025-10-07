@@ -16,6 +16,14 @@ const ProjectsSection = () => {
       enabled: false,
     },
     {
+      image: '/assets/projects/Certifi.jpg',
+      title: t('proj7Name'),
+      description: t('proj7About'),
+      technologies: ['Next JS 15', 'TypeScript', 'Mongo DB', 'Node Js', 'Express', 'Chakra UI'],
+      link: 'https://certifi.world/',
+      enabled: false,
+    },
+    {
       image: '/assets/projects/ItTutor.png',
       title: t('proj2Name'),
       description: t('proj2About'),

@@ -8,6 +8,12 @@ const Experience = () => {
   const t = useTranslations('aboutPage')
   const experienceData = [
     {
+      title: t('work6PosName'),
+      company: t('work6Name'),
+      period: '07.2025-09.2025',
+      description: t('work6About'),
+    },
+    {
       title: t('work1PosName'),
       company: t('work1Name'),
       period: '01.2023-12.2024',
@@ -19,15 +25,33 @@ const Experience = () => {
       period: '07.2024-09.2024',
       description: t('work2About'),
     },
+    // {
+    //   title: t('work3PosName'),
+    //   company: t('work3Name'),
+    //   period: '01.2021-08.2021',
+    //   description: t('work3About'),
+    // },
+    // {
+    //   title: t('work4PosName'),
+    //   company: t('work4Name'),
+    //   period: '06.2024-02.2025',
+    //   description: t('work4About'),
+    // },
     {
-      title: t('work3PosName'),
-      company: t('work3Name'),
-      period: '01.2021-08.2021',
-      description: t('work3About'),
+      title: t('work5PosName'),
+      company: t('work5Name'),
+      period: '04.2025-06.2025',
+      description: t('work5About'),
     },
   ]
 
   const educationData = [
+    {
+      title: t('edu4PosName'),
+      institution: t('edu4Name'),
+      period: '10.2025-10.2028',
+      description: t('edu4About'),
+    },
     {
       title: t('edu1PosName'),
       institution: t('edu1Name'),

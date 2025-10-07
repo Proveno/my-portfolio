@@ -3,7 +3,7 @@
     "IAm": "Ich bin",
     "Maksym": "Maksym Riznyk",
     "softwareDeveloper": "SOFTWAREENTWICKLER",
-    "textAboutMe": "Ich bin Webentwickler mit über drei Jahren Erfahrung im Aufbau moderner Webanwendungen. Ich spezialisiere mich auf React, Next.js sowie Frontend- und Backend-Entwicklung. Zu meinen Kernkompetenzen gehören die Arbeit mit Datenbanken (MongoDB, MariaDB) und die Erstellung von responsiven Benutzeroberflächen mit CSS, Tailwind CSS, Material UI.",
+    "textAboutMe": "Ich bin Webentwickler und Student an der TU Hamburg mit über drei Jahren Erfahrung im Aufbau moderner Webanwendungen. Ich spezialisiere mich auf React, Next.js sowie Frontend- und Backend-Entwicklung. Zu meinen Kernkompetenzen gehören die Arbeit mit Datenbanken (MongoDB, MariaDB) und die Erstellung von responsiven Benutzeroberflächen mit CSS, Tailwind CSS, Material UI.",
     "download": "LEBENSLAUF HERUNTERLADEN"
   },
   "aboutPage": {
@@ -13,7 +13,7 @@
     "name": "Name",
     "nameContent": "Maksym Riznyk",
     "age": "Alter",
-    "ageContent": "19",
+    "ageContent": "20",
     "phone": "Telefon",
     "phoneContent": "+49 1512 4108711",
     "email": "E-Mail",
@@ -58,6 +58,18 @@
     "work3Name": "Foodba",
     "work3About": "Entwicklung des Frontends einer Webanwendung mit Schwerpunkt auf der Schaffung einer intuitiven und ansprechenden Benutzeroberfläche, die eine positive Benutzererfahrung sicherstellt. Dazu gehören das Design und die Umsetzung von Designkonzepten, einschließlich der Entwicklung eines einheitlichen visuellen Erscheinungsbildes und der Anwendung von UX-Prinzipien. Darüber hinaus liegt der Fokus auf der Erstellung funktionaler Elemente der Anwendung wie interaktive Komponenten, Formulare, Navigationselemente und dynamische Inhalte, die die Gesamtfunktionalität der Webanwendung unterstützen und verbessern.",
 
+    "work4PosName": "Full-Stack-Entwickler",
+    "work4Name": "CB-Shchus",
+    "work4About": "Full-Stack-Entwicklung der Unternehmens-Website für ein Ingenieurbüro mit dem Schwerpunkt auf der effizienten Strukturierung und Darstellung einer großen Anzahl von technischen Projekten und Entwicklungen. Die Aufgabe umfasste die gesamte Implementierung, einschließlich der Benutzerauthentifizierung und der Integration von Google OAuth für eine nahtlose Anmeldung. Ein zentraler Fokus lag auf der Konzeption und Realisierung eines funktionalen Admin-Panels zur eigenständigen Verwaltung und Pflege aller Website-Inhalte und Projektdaten durch das Ingenieurbüro. Ergänzend dazu wurde das Frontend entwickelt, um eine intuitive und professionelle Benutzeroberfläche zu gewährleisten.",
+
+    "work5PosName": "Frontend-Entwickler",
+    "work5Name": "Vision of life",
+    "work5About": "Als Frontend-Entwickler war ich maßgeblich an der Gestaltung und Implementierung der Benutzeroberfläche für den AI Business Plan Generator beteiligt. Der Schwerpunkt lag auf der Entwicklung einer intuitiven Multi-Step-Benutzerführung zur Erfassung komplexer Geschäftsideen und der Visualisierung datengesteuerter Ergebnisse Dies umfasste die Erstellung interaktiver Komponenten zur Auswahl generierter Geschäftskonzepte und die Einbettung von Finanzprojektionen (Charts und Graphen). Zusätzlich war ich für die frontendseitige Vorbereitung des finalen, professionell formatierten PDF-Dokuments zuständig, um eine korrekte Darstellung der strukturierten Berichte zu gewährleisten.",
+
+    "work6PosName": "Full-Stack-Entwickler",
+    "work6Name": "CertiFi",
+    "work6About": "Full-Stack-Entwicklung einer skalierbaren Plattform für Festivals und Musiker, die die schnelle Erstellung und Verwaltung von event-spezifischen Websites ermöglicht. Meine Hauptaufgabe war die Entwicklung des Backends und die Konzeption des Admin-Panels, das eine umfassende Anpassung von Website-Elementen (Farben, Inhalte, Formulare), die Konfiguration von Google Analytics und die Zuweisung benutzerdefinierter Subdomains erlaubte. Ein zentraler Fokus lag auf der Implementierung der Besucherregistrierung und der Generierung dynamisch konfigurierbarer digitaler Tickets (Apple/Google Wallet Pässe). Zu meinen technischen Backend-Aufgaben gehörten die Einrichtung von OTP- und E-Mail-Diensten, die Verwaltung der Subdomains und die Integration von Google Storage zur Speicherung von 3D-Assets für Künstler-Downloads.",
+
     "edu1PosName": "Student, T-Kurs",
     "edu1Name": "Studienkolleg Hamburg",
     "edu1About": "Abschluss des Studienkollegs mit erfolgreicher Feststellungsprüfung (FSP), die als Qualifikation für den Beginn eines Fachstudiums in Deutschland dient. Der T-Kurs konzentriert sich auf die Vorbereitung auf ein späteres Studium. Deutschkenntnisse werden auf ein akademisches Niveau vertieft, um den Kurs erfolgreich auf Deutsch zu absolvieren. Außerdem erfolgt eine intensive Auseinandersetzung mit technischen Grundlagen in Mathematik, Physik und Informatik.",
@@ -68,7 +80,11 @@
 
     "edu3PosName": "Schüler",
     "edu3Name": "Gymnasium Nr. 31, Zaporizhzhia",
-    "edu3About": "Abschluss der Schulausbildung mit erfolgreichem Erwerb umfassender Kenntnisse in Mathematik, Naturwissenschaften, Sprachen und Informatik. Während der Schulzeit wurden wichtige soziale und organisatorische Fähigkeiten entwickelt, die als Grundlage für die weitere akademische und berufliche Laufbahn dienen."
+    "edu3About": "Abschluss der Schulausbildung mit erfolgreichem Erwerb umfassender Kenntnisse in Mathematik, Naturwissenschaften, Sprachen und Informatik. Während der Schulzeit wurden wichtige soziale und organisatorische Fähigkeiten entwickelt, die als Grundlage für die weitere akademische und berufliche Laufbahn dienen.",
+
+    "edu4PosName": "Student, Bachelor of Computer Science",
+    "edu4Name": "TU Hamburg",
+    "edu4About": "Aktuell im Bachelorstudium der Informatik (B.Sc.) an der TU Hamburg. Der Schwerpunkt liegt auf Software-Engineering, Datenbanken und der theoretischen Basis von Computersystemen, ergänzt durch praktische Projekte in den Bereichen Web- und Systementwicklung."
   },
   "projects": {
     "myProjectsPart1": "MY",
@@ -91,7 +107,10 @@
     "proj5About": "Frion ist eine Plattform für ein fiktives Tierheim, das verschiedene Dienstleistungen rund um Haustiere anbietet. Benutzer können Haustiere zur Adoption anmelden, gefundene Tiere abgeben oder Behandlungen für ihre Tiere anfordern. Die Website bietet außerdem eine Produktauswahl für Tiere sowie die Möglichkeit, Notunterkünfte in der Nähe zu finden. Alle Anfragen werden über Messenger, E-Mail oder Telefon mit den Betreibern bestätigt. Die Plattform ist mehrsprachig und bietet eine benutzerfreundliche Oberfläche für Tierliebhaber.",
 
     "proj6Name": "CB-Shchus",
-    "proj6About": "Eine Website für ein Konstruktionsbüro, die eine Präsentation abgeschlossener Projekte mit einem benutzerfreundlichen Bestelltool vereint. Die Plattform verfügt über einen interaktiven Projektkatalog mit Filterfunktionen nach Branchen und Technologien, der Kunden eine schnelle Einschätzung der Expertise des Unternehmens ermöglicht. Besonderes Highlight – das Online-Bestellsystem: Nutzer können individuelle Projekte mit einem schrittweisen Konfigurator erstellen, technische Anforderungen hochladen und sofort eine Kostenvoranschlag erhalten. Für das Büropersonal steht ein geschützter Bereich mit automatischer Auftragsverteilung und Fortschrittsverfolgung zur Verfügung."
+    "proj6About": "Eine Website für ein Konstruktionsbüro, die eine Präsentation abgeschlossener Projekte mit einem benutzerfreundlichen Bestelltool vereint. Die Plattform verfügt über einen interaktiven Projektkatalog mit Filterfunktionen nach Branchen und Technologien, der Kunden eine schnelle Einschätzung der Expertise des Unternehmens ermöglicht. Besonderes Highlight – das Online-Bestellsystem: Nutzer können individuelle Projekte mit einem schrittweisen Konfigurator erstellen, technische Anforderungen hochladen und sofort eine Kostenvoranschlag erhalten. Für das Büropersonal steht ein geschützter Bereich mit automatischer Auftragsverteilung und Fortschrittsverfolgung zur Verfügung.",
+
+    "proj7Name": "CertiFi",
+    "proj7About": "Skalierbare Plattform für Festivals und Musiker, die für die schnelle Erstellung und Verwaltung von Event-Websites konzipiert ist. Das Admin-Panel ermöglicht eine umfassende Konfiguration des visuellen Erscheinungsbildes (Farben, Inhalte, Registrierungsformulare), die Einrichtung von Google Analytics und die Zuweisung eigener Subdomains. Die Hauptfunktion der Websites ist die Besucherregistrierung und die Generierung dynamisch konfigurierbarer digitaler Tickets (Apple/Google Wallet Pässe), deren Konfiguration ebenfalls über das Admin-Panel erfolgt. Die Plattform bietet Künstlern außerdem die Möglichkeit, einzigartige 3D-Assets zum Download bereitzustellen."
   },
   "contactPage": {
     "contactMePart1": "KONTAKT",
