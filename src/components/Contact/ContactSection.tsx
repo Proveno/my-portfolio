@@ -20,6 +20,7 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { RevealOnScroll } from '../RevealScroll'
+import toast from 'react-hot-toast'
 
 const ContactSection = () => {
   const t = useTranslations('contactPage')
@@ -111,18 +112,20 @@ const ContactSection = () => {
 
       const result = await response.json()
       if (response.ok) {
-        const responseUser = await fetch('/api/mailer', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            toEmail: formData.email,
-            fromName: 'Maksym Riznyk',
-            toName: formData.name,
-            subject: 'Thank you for your message!',
-            text: `Dear ${formData.name},\n\nWe have received your message and will get back to you shortly. Please note that this is an automatic email. Do not reply to it.\n\nHere is a copy of your message:\n${formData.message}`,
-            html: `
+        toast.success(t('toastSuccess'))
+        try {
+          const responseUser = await fetch('/api/mailer', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              toEmail: formData.email,
+              fromName: 'Maksym Riznyk',
+              toName: formData.name,
+              subject: 'Thank you for your message!',
+              text: `Dear ${formData.name},\n\nWe have received your message and will get back to you shortly. Please note that this is an automatic email. Do not reply to it.\n\nHere is a copy of your message:\n${formData.message}`,
+              html: `
     <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;">
       <h2 style="color: #4CAF50; text-align: center;">Thank You for Contacting me!</h2>
       <p style="font-size: 16px; margin: 10px 0;">
@@ -154,14 +157,19 @@ const ContactSection = () => {
       </p>
     </div>
   `,
-          }),
-        })
-        responseUser.json()
-        setFormData({ name: '', email: '', subject: '', message: '' })
+            }),
+          })
+          responseUser.json()
+          setFormData({ name: '', email: '', subject: '', message: '' })
+        } catch (userEmailError) {
+          console.error('Failed to send confirmation email to user:', userEmailError)
+        }
       } else {
+        toast.error(t('toastError'))
         console.error('Error sending email:', result)
       }
     } catch (error) {
+      toast.error(t('toastError'))
       console.error('Unexpected error:', error)
     } finally {
       setIsSubmitting(false)

@@ -1,9 +1,3 @@
-// import { useTranslations } from 'next-intl'
-
-// export default function HomePage() {
-//   const t = useTranslations('TESTChapter')
-//   return <h1>{t('test1')}</h1>
-// }
 'use client'
 import { Box } from '@mui/material'
 import NavBar from '@/components/NavBar'
@@ -14,10 +8,24 @@ import ContactSection from '@/components/Contact/ContactSection'
 import ProjectsSection from '@/components/Projects/ProjectsSection'
 
 const Home = () => {
-  const [selectedSection, setSelectedSection] = useState<string>('')
+  const [selectedSection, setSelectedSection] = useState<string>('#home')
   const [renderElem, setRenderElem] = useState<JSX.Element>(<MainSection />)
   const [hideBlock, setHideBlock] = useState<boolean>(false)
-  // setLoaded={setLoaded}
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash || '#home'
+      setSelectedSection(hash)
+    }
+
+    handleHashChange()
+
+    window.addEventListener('hashchange', handleHashChange)
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange)
+    }
+  }, [])
 
   useEffect(() => {
     setHideBlock(true)
@@ -41,6 +49,7 @@ const Home = () => {
       setHideBlock(false)
     }, 400)
   }, [selectedSection])
+
   return (
     <Box className={'bg-[#1f1f2e] '}>
       <Box>

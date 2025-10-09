@@ -137,6 +137,9 @@
     "fieldMessageErr": "Nachricht ist erforderlich",
 
     "sendMessageBtn": "SENDEN",
-    "loadingMessageBtn": "LOADING"
+    "loadingMessageBtn": "LOADING",
+
+    "toastSuccess": "Nachricht erfolgreich gesendet! Danke!",
+    "toastError": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut."
   }
 }

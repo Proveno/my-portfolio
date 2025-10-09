@@ -137,6 +137,9 @@
     "fieldMessageErr": "Message is required",
 
     "sendMessageBtn": "SEND MESSAGE",
-    "loadingMessageBtn": "LOADING"
+    "loadingMessageBtn": "LOADING",
+
+    "toastSuccess": "Email successfully sent! Thank you!",
+    "toastError": "Something went wrong. Please try again later."
   }
 }

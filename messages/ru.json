@@ -137,6 +137,9 @@
     "fieldMessageErr": "Сообщение необходимо",
 
     "sendMessageBtn": "ОТПРАВИТЬ СООБЩЕНИЕ",
-    "loadingMessageBtn": "ЗАГРУЗКА"
+    "loadingMessageBtn": "ЗАГРУЗКА",
+
+    "toastSuccess": "Сообщение успешно отправлено! Спасибо!",
+    "toastError": "Что-то пошло не так. Пожалуйста, попробуйте позже."
   }
 }
