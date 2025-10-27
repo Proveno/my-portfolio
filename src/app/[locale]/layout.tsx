@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: 'Maksym Riznyk',
   description: 'Portfolio website of full stack developer Maksym Riznyk. Enjoy :)',
   icons: {
-    icon: '/icon.png?v=2',
-    apple: '/icon.png?v=2',
+    icon: '/icon.png?v=3',
+    apple: '/icon.png?v=3',
   },
   openGraph: {
     title: 'Maksym Riznyk - Full Stack Developer',
