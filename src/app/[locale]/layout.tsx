@@ -5,6 +5,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import { Toaster } from 'react-hot-toast'
 
 import '../globals.css'
+import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 
 export const metadata: Metadata = {
   title: 'Maksym Riznyk',
@@ -36,6 +37,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body>
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <Toaster
             position='top-center'
