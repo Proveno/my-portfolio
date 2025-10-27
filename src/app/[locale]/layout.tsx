@@ -9,6 +9,10 @@ import '../globals.css'
 export const metadata: Metadata = {
   title: 'Maksym Riznyk',
   description: 'Portfolio website of full stack developer Maksym Riznyk. Enjoy :)',
+  icons: {
+    icon: '/icon.png?v=2',
+    apple: '/icon.png?v=2',
+  },
   openGraph: {
     title: 'Maksym Riznyk - Full Stack Developer',
     description: 'Portfolio website of full stack developer Maksym Riznyk. Enjoy :)',
