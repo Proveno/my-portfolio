@@ -5,7 +5,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import { Toaster } from 'react-hot-toast'
 
 import '../globals.css'
-import { GoogleAnalytics } from '@/components/GoogleAnalytics'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: 'Maksym Riznyk',
@@ -34,10 +34,11 @@ export default async function RootLayout({
 }>) {
   const locale = await getLocale()
   const messages = await getMessages()
+  console.log('GA:', process.env.NEXT_PUBLIC_GA_ID)
   return (
     <html lang={locale}>
       <body>
-        <GoogleAnalytics />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
         <NextIntlClientProvider messages={messages}>
           <Toaster
             position='top-center'
