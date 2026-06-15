@@ -8,6 +8,38 @@ const ProjectsSection = () => {
 
   const projects = [
     {
+      image: '/assets/projects/etronixx.png',
+      title: t('proj8Name'),
+      description: t('proj8About'),
+      technologies: ['Angular', 'TypeScript', 'Node.js', 'Nx Monorepo', 'Azure Functions', 'SAP HANA'],
+      link: '',
+      enabled: false,
+    },
+    {
+      image: '/assets/projects/heitmann.png',
+      title: t('proj9Name'),
+      description: t('proj9About'),
+      technologies: ['Angular', 'Flutter', 'Node.js', 'AWS Lambda'],
+      link: '',
+      enabled: false,
+    },
+    {
+      image: '/assets/projects/edeka.png',
+      title: t('proj10Name'),
+      description: t('proj10About'),
+      technologies: ['Angular', 'NestJS', 'Azure', 'Jest', 'Terraform'],
+      link: '',
+      enabled: false,
+    },
+    {
+      image: '/assets/projects/enterprise-ai.svg',
+      title: t('proj11Name'),
+      description: t('proj11About'),
+      technologies: ['TypeScript', 'Node.js', 'Prisma', 'SAP HANA', 'Vite'],
+      link: '',
+      enabled: false,
+    },
+    {
       image: '/assets/projects/qstarr.svg',
       title: t('proj1Name'),
       description: t('proj1About'),

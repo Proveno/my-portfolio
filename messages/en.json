@@ -2,8 +2,8 @@
   "homePage": {
     "IAm": "I am",
     "Maksym": "Maksym Riznyk",
-    "softwareDeveloper": "SOFTWARE DEVELOPER",
-    "textAboutMe": "I am a web developer and a student at TU Hamburg with over three years of experience in building modern web applications. I specialize in React, Next.js, as well as frontend and backend development. My key competencies include working with databases (MongoDB, MariaDB) and creating responsive user interfaces using CSS, Tailwind CSS, Material UI.",
+    "softwareDeveloper": "SOFTWARE ENGINEER",
+    "textAboutMe": "I am a Software Engineer focused on building scalable web applications and solving complex B2B challenges. I currently combine rigorous academic theory at TU Hamburg with hands-on, impact-driven engineering at Liquam. My core stack spans React, Next.js, Angular and Node.js, with experience across cloud and architecture (AWS, Azure, Docker, Nx monorepos). I am passionate about clean architecture, performance optimization, and turning business requirements into reliable software.",
     "download": "DOWNLOAD CV"
   },
   "aboutPage": {
@@ -70,6 +70,10 @@
     "work6Name": "CertiFi",
     "work6About": "Full-stack development of a scalable platform for festivals and musicians, enabling the rapid creation and management of event-specific websites. My main task involved backend development and the conception of the Admin Panel, which allowed for comprehensive customization of website elements (colors, content, forms), configuration of Google Analytics, and assignment of custom subdomains. A central focus was on implementing visitor registration and generating dynamically configurable digital tickets (Apple/Google Wallet passes). My technical backend responsibilities included setting up OTP and email services, managing subdomains, and integrating Google Storage for storing 3D assets for artist downloads.",
 
+    "work7PosName": "Software Engineer (Working Student)",
+    "work7Name": "Liquam GmbH",
+    "work7About": "As a Working Student at Liquam, I build and maintain scalable B2B applications within a TypeScript/Nx monorepo. I designed and implemented an automated serverless procurement engine (Azure Functions) that handles inventory reordering in SAP through a transparent and secured process. I also developed real-time GPS route tracking across web and mobile (Angular, Flutter, Node.js) and built a comprehensive audit log to trace and analyze critical user- and AI-driven events.",
+
     "edu1PosName": "Student, T-Course ",
     "edu1Name": "Studienkolleg Hamburg",
     "edu1About": "Completion of the preparatory college with a successful assessment test (FSP), which serves as a qualification for starting a specialist course in Germany. The T course focuses on preparation for later studies. German language skills are deepened to an academic level in order to successfully complete the course in German. Moreover, there is an intensive examination of technical fundamentals in mathematics, physics and computer science.",
@@ -110,7 +114,19 @@
     "proj6About": "A website for an engineering design bureau, combining a portfolio of completed projects with a convenient order placement tool. The platform features an interactive project catalog with filtering by industry and technology, allowing clients to quickly assess the company's expertise. Key highlight – the online ordering system: users can create custom projects using a step-by-step configurator, upload technical requirements, and instantly receive a preliminary cost estimate. For the bureau’s team, there’s a secure backend section with automated request distribution and progress tracking.",
 
     "proj7Name": "CertiFi",
-    "proj7About": "A scalable platform for festivals and musicians, designed for the rapid creation and management of event-specific websites. The Admin Panel allows for comprehensive configuration of the visual design (colors, content, registration forms), setup of Google Analytics, and assignment of custom subdomains. The main function of the websites is visitor registration and the generation of dynamically configurable digital tickets (Apple/Google Wallet passes), the configuration of which is also handled via the Admin Panel. The platform also offers artists the ability to provide unique 3D assets for download."
+    "proj7About": "A scalable platform for festivals and musicians, designed for the rapid creation and management of event-specific websites. The Admin Panel allows for comprehensive configuration of the visual design (colors, content, registration forms), setup of Google Analytics, and assignment of custom subdomains. The main function of the websites is visitor registration and the generation of dynamically configurable digital tickets (Apple/Google Wallet passes), the configuration of which is also handled via the Admin Panel. The platform also offers artists the ability to provide unique 3D assets for download.",
+
+    "proj8Name": "Etronixx",
+    "proj8About": "Etronixx is a large e-commerce platform specializing in consumer electronics, for which we maintain a TypeScript monorepo that powers the company's core business processes. My most significant contribution was designing and building a standalone decision-making engine for automated warehouse replenishment orders, which evaluates inventory levels and supplier conditions to propose purchasing decisions. Alongside it, I developed an internal web application — the 'Intranet' — that gives employees full visibility into these automated decisions, allowing them to review and approve proposed orders or investigate and resolve issues such as excessive supplier prices or out-of-stock items. The system replaces manual, error-prone procurement steps with a transparent, auditable workflow that scales with the store's growing catalog.",
+
+    "proj9Name": "Heitmann",
+    "proj9About": "Heitmann is a logistics application built for a waste-disposal and portable-toilet service company. The system is split into a tablet app for drivers and a web dashboard for dispatchers, backed by a shared serverless backend. On the tablet, drivers see their assigned orders and stops on a map — including how many toilets to service at each location — with navigation and the ability to raise notifications directly from the field. The dispatcher frontend receives driver reports in real time: arrival times, completed and open orders, the roster of drivers, and scheduled appointments (Termine) so drivers know in advance about upcoming jobs or when a vehicle is due for maintenance. Dispatchers can also review the GPS routes drivers actually took in order to analyze and optimize future planning.",
+
+    "proj10Name": "Edeka Cleaning",
+    "proj10About": "Edeka Cleaning is a web application built for a cleaning subsidiary of the Edeka group. It provides a central platform that lists the supermarket stores served by the company along with their associated documents and reports, all maintained by the responsible managers. Managers can browse each store, keep its documentation organized and up to date, and review the cleaning reports tied to it. The application is built with Angular and NestJS, deployed on Azure with infrastructure managed via Terraform, and covered by a Jest test suite to ensure reliability.",
+
+    "proj11Name": "Enterprise AI",
+    "proj11About": "Enterprise AI is an internal corporate AI platform that turns a company's documents and communications into actionable knowledge and automated workflows. Employees can ask questions in natural language and get answers grounded in the company's own documents, while the assistant automatically analyzes incoming material, transcribes and summarizes meetings, and keeps a searchable record of what was discussed. Beyond retrieval, the platform drives end-to-end process automation: an incoming email, for example, can be analyzed and trigger a chain of actions — scheduling a meeting, generating an invoice, and updating the relevant records — without manual intervention. It is built with TypeScript and Node.js, using Prisma against SAP HANA for data access and Vite for a fast frontend build."
   },
   "contactPage": {
     "contactMePart1": "CONTACT",

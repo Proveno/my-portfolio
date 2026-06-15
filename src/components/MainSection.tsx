@@ -80,7 +80,7 @@ const MainSection = () => {
             borderColor: '#34d399',
             ':hover': { backgroundColor: '#34d399', color: 'white' },
           }}
-          href='/assets/Maksym Riznyk Lebenslauf.pdf'
+          href='/assets/Maksym Riznyk EN.pdf'
           download
         >
           {t('download')}

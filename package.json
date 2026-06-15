@@ -20,12 +20,14 @@
     "framer-motion": "^11.14.4",
     "next": "15.0.7",
     "next-intl": "^3.25.3",
+    "nodemailer": "^8.0.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.6.0"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.1",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",

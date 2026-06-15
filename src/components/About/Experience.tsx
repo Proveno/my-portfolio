@@ -8,6 +8,12 @@ const Experience = () => {
   const t = useTranslations('aboutPage')
   const experienceData = [
     {
+      title: t('work7PosName'),
+      company: t('work7Name'),
+      period: `01.2026-${t('present')}`,
+      description: t('work7About'),
+    },
+    {
       title: t('work6PosName'),
       company: t('work6Name'),
       period: '07.2025-09.2025',

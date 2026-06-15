@@ -6,24 +6,32 @@ import { RevealOnScroll } from '../RevealScroll'
 const Skills = () => {
   const t = useTranslations('aboutPage')
   const skills = [
-    { name: 'HTML5', level: t('levelAdvanced') },
-    { name: 'CSS3', level: t('levelAdvanced') },
-    { name: 'JavaScript', level: t('levelAdvanced') },
     { name: 'TypeScript', level: t('levelAdvanced') },
-    { name: 'NextJS', level: t('levelAdvanced') },
+    { name: 'JavaScript', level: t('levelAdvanced') },
     { name: 'React', level: t('levelAdvanced') },
-    { name: 'Tailwind', level: t('levelIntermediate') },
-    { name: 'Bootstrap', level: t('levelIntermediate') },
+    { name: 'Next.js', level: t('levelAdvanced') },
+    { name: 'Angular', level: t('levelAdvanced') },
+    { name: 'Tailwind CSS', level: t('levelAdvanced') },
+    { name: 'Material UI', level: t('levelAdvanced') },
+    { name: 'Node.js', level: t('levelAdvanced') },
 
-    { name: 'NodeJS', level: t('levelIntermediate') },
-    { name: 'Mongo DB', level: t('levelIntermediate') },
+    { name: 'Express', level: t('levelAdvanced') },
+    { name: 'NestJS', level: t('levelIntermediate') },
+    { name: 'Hono', level: t('levelIntermediate') },
+    { name: 'Prisma ORM', level: t('levelIntermediate') },
+    { name: 'MongoDB', level: t('levelIntermediate') },
+    { name: 'MySQL', level: t('levelIntermediate') },
+    { name: 'SAP HANA', level: t('levelIntermediate') },
+    { name: 'SQL', level: t('levelAdvanced') },
 
-    { name: 'Git', level: t('levelIntermediate') },
-    { name: 'Maria DB', level: t('levelBeginner') },
-    { name: 'C++', level: t('levelBeginner') },
-    { name: 'C#', level: t('levelBeginner') },
-    { name: 'Java', level: t('levelBeginner') },
-    { name: 'Android', level: t('levelBeginner') },
+    { name: 'AWS', level: t('levelIntermediate') },
+    { name: 'Azure', level: t('levelIntermediate') },
+    { name: 'GCP', level: t('levelIntermediate') },
+    { name: 'Docker', level: t('levelIntermediate') },
+    { name: 'Nx (Monorepo)', level: t('levelIntermediate') },
+    { name: 'Flutter', level: t('levelIntermediate') },
+    { name: 'Dart', level: t('levelIntermediate') },
+    { name: 'Git', level: t('levelAdvanced') },
   ]
   return (
     <Box

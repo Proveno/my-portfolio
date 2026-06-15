@@ -109,7 +109,7 @@ const AboutMe = () => {
             {[
               { label: t('box1'), value: '4+' },
               { label: t('box2'), value: '4' },
-              { label: t('box3'), value: '10+' },
+              { label: t('box3'), value: '20+' },
               { label: t('box4'), value: '3+' },
               { label: t('box5'), value: '3+' },
               { label: '', value: '...' },
